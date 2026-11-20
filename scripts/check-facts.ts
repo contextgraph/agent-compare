@@ -142,8 +142,11 @@ for (const pair of pairsFor()) {
   if (leadFor("vs", pair.slug) && !indexed.has(path)) fail(`sitemap missing ${path}`);
   if (!leadFor("vs", pair.slug) && indexed.has(path)) fail(`sitemap includes lead-less ${path}`);
 }
-if (!indexed.has("/agents/openai-dots") || !indexed.has("/agents/claude-duet")) {
-  fail("expected slugs openai-dots and claude-duet");
+if (!indexed.has("/agents/openai-dots") || !indexed.has("/agents/claude-duet") || !indexed.has("/agents/google-tasks-in-gemini")) {
+  fail("expected slugs openai-dots, claude-duet, and google-tasks-in-gemini");
+}
+if (indexed.has("/agents/google-gemini-agent") || [...indexed].some((path) => path.includes("google-gemini-agent"))) {
+  fail("old google slug is still indexable");
 }
 if (indexed.has("/agents/openai-chatgpt-agent") || indexed.has("/agents/anthropic-claude-agent")) {
   fail("old product slugs are still indexable");

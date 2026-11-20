@@ -58,12 +58,14 @@ export function agentBySlug(slug: string): Agent | undefined {
 export function slugFor(agent: Agent): string {
   if (agent.id === "openai-chatgpt-agent") return "openai-dots";
   if (agent.id === "anthropic-claude-agent") return "claude-duet";
+  if (agent.id === "google-gemini-agent") return "google-tasks-in-gemini";
   return agent.id;
 }
 
 export function displayName(agent: Agent): string {
   if (agent.id === "openai-chatgpt-agent") return "OpenAI dots";
   if (agent.id === "anthropic-claude-agent") return "Claude Duet";
+  if (agent.id === "google-gemini-agent") return "Tasks in Gemini";
   if (isFact(agent.name) && typeof agent.name.value === "string" && agent.name.value.trim()) {
     const cut = agent.name.value.split(" (")[0]?.trim();
     return cut || agent.name.value;

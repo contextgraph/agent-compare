@@ -20,7 +20,7 @@ do not add numbers, features, quotes, or reviews that are not in the data. do no
 
 ## rows
 
-the openai row is **OpenAI dots** (`/agents/openai-dots`). the anthropic row is **Claude Duet** (`/agents/claude-duet`). ChatGPT Work and Claude Cowork text stays in the dataset and is labeled `related: ChatGPT Work` or `related: Claude Cowork`. if a field has only that related text, the product cell says unverified.
+the openai row is **OpenAI dots** (`/agents/openai-dots`). the anthropic row is **Claude Duet** (`/agents/claude-duet`). the google row is **Tasks in Gemini** (`/agents/google-tasks-in-gemini`). Gemini Agent and Spark stay in aliases only. ChatGPT Work and Claude Cowork text stays in the dataset and is labeled `related: ChatGPT Work` or `related: Claude Cowork`. if a field has only that related text, the product cell says unverified.
 
 data notes render next to the value they belong to.
 

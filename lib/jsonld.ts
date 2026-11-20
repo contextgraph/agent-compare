@@ -1,5 +1,5 @@
 import { aliasFacts } from "./columns";
-import { agents, displayName, focusOf, fullName, isFact, latestCheckedOn, slugFor } from "./data";
+import { agents, displayName, fullName, isFact, latestCheckedOn, slugFor } from "./data";
 import { SITE_NAME, SITE_URL } from "./site";
 import type { Agent, Fact } from "./types";
 
@@ -51,7 +51,7 @@ export function alternateNames(agent: Agent): string[] {
   for (const fact of aliasFacts(agent)) {
     if (typeof fact.value === "string" && fact.value.trim() && fact.source) names.add(fact.value.trim());
   }
-  if (focusOf(agent) && fullName(agent) !== displayName(agent)) names.add(fullName(agent));
+  if (fullName(agent) !== displayName(agent)) names.add(fullName(agent));
   names.delete(displayName(agent));
   return [...names];
 }

@@ -3,7 +3,7 @@ import { Breadcrumbs, Checked } from "../../../components/Chrome";
 import { FactCell, Lead } from "../../../components/Facts";
 import { JsonLd } from "../../../components/JsonLd";
 import { aliasFacts, groupsFor, identitySlots } from "../../../lib/columns";
-import { agents, displayName, focusOf, isKeeperRow, latestCheckedOn, relatedLabel, slugFor } from "../../../lib/data";
+import { agents, displayName, fullName, isKeeperRow, latestCheckedOn, relatedLabel, slugFor } from "../../../lib/data";
 import { alternateNames, breadcrumb, graph, softwareApplication, webPage } from "../../../lib/jsonld";
 import { pageMeta } from "../../../lib/meta";
 import { pairsFor } from "../../../lib/routes";
@@ -63,7 +63,7 @@ export default async function AgentPage({ params }: { params: Promise<{ slug: st
             key={slot.label}
             agent={agent}
             fact={slot.fact}
-            label={slot.label === "name" && focusOf(agent) ? "dataset name" : slot.label}
+            label={slot.label === "name" && fullName(agent) !== displayName(agent) ? "dataset name" : slot.label}
             plain={slot.plain}
           />
         ))}
