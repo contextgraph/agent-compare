@@ -1,3 +1,4 @@
+import { HOME_INTRO } from "./copy";
 import { agents, displayName, slugFor } from "./data";
 import { leadFor } from "./leads";
 import { questionsFor, type Question } from "./questions";
@@ -49,8 +50,7 @@ export function siteRoutes(): SiteRoute[] {
       kind: "home",
       slug: "",
       title: "agent compare",
-      description:
-        "sourced comparison of personal ai agents. every claim has a source and a checked-on date. no rankings and no paid placement.",
+      description: HOME_INTRO,
     },
     {
       path: "/about",

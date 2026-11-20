@@ -28,6 +28,8 @@ data notes render next to the value they belong to.
 
 price and limits; email, calendar, browser, files, messaging, payments; schedule while away; memory; asks before sending or spending; where it runs; training; retention; platforms. extra fact keys in the json are rendered too.
 
+comparison tables show a short line taken from those sourced values, with the source link and checked-on date. the full text, data notes, and related-product text are on the agent page.
+
 ## commands
 
 ```bash
