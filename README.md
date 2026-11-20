@@ -35,4 +35,4 @@ npm install
 npm run build
 ```
 
-`NEXT_PUBLIC_SITE_URL` defaults to `https://agent-compare.vercel.app`.
+`NEXT_PUBLIC_SITE_URL` defaults to `https://agent-compare-three.vercel.app`.

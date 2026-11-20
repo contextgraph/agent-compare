@@ -1,6 +1,6 @@
 /** Public site origin. Override with NEXT_PUBLIC_SITE_URL. */
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://agent-compare.vercel.app"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://agent-compare-three.vercel.app"
 ).replace(/\/$/, "");
 
 export const SITE_NAME = "agent compare";
