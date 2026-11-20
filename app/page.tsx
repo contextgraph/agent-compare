@@ -1,63 +1,49 @@
 import { JsonLd } from "../components/JsonLd";
 import { Checked } from "../components/Chrome";
-import { Lead } from "../components/Facts";
-import { CompareTable } from "../components/Tables";
-import { columnsFor } from "../lib/columns";
-import { homeIntro } from "../lib/copy";
+import { HOME_INTRO } from "../lib/copy";
 import { agents, changelog, latestCheckedOn, slugFor, displayName } from "../lib/data";
 import { agentList, breadcrumb, graph, webPage } from "../lib/jsonld";
-import { indexableRoutes, pairsFor, questions } from "../lib/routes";
+import { pairsFor, questions } from "../lib/routes";
 import { pageMeta } from "../lib/meta";
 
-export const metadata = pageMeta(
-  "agent compare",
-  "sourced comparison of personal ai agents. every claim has a source and a checked-on date. no rankings and no paid placement.",
-  "/",
-);
+export const metadata = pageMeta("agent compare", HOME_INTRO, "/");
 
 export default function HomePage() {
-  const intro = homeIntro(agents);
   const date = latestCheckedOn();
   return (
     <>
       <JsonLd
         data={graph([
-          webPage({ path: "/", title: "agent compare", description: intro, dateModified: date }),
+          webPage({ path: "/", title: "agent compare", description: HOME_INTRO, dateModified: date }),
           breadcrumb([{ name: "agent compare", path: "/" }]),
           agentList(),
         ])}
       />
       <h1>agent compare</h1>
-      <Lead text={intro} />
-      <Checked />
-      <h2 id="comparison">comparison</h2>
-      <CompareTable id="diff-home" list={agents} columns={columnsFor()} caption="sourced comparison of personal ai agents" />
-      <h2 id="agents">agents</h2>
-      <ul className="link-list">
-        {agents.map((agent) => (
-          <li key={agent.id}>
-            <a href={`/agents/${slugFor(agent)}`}>{displayName(agent)}</a>
-          </li>
-        ))}
-      </ul>
-      <h2 id="comparisons">comparisons</h2>
-      <ul className="link-list">
-        {pairsFor().map((pair) => (
-          <li key={pair.slug}>
-            <a href={`/vs/${pair.slug}`}>
-              {displayName(pair.a)} vs {displayName(pair.b)}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <p className="lede">{HOME_INTRO}</p>
       <h2 id="questions">questions</h2>
-      <ul className="link-list">
+      <div className="card-grid">
         {questions().map((question) => (
-          <li key={question.slug}>
-            <a href={`/questions/${question.slug}`}>{question.title}</a>
-          </li>
+          <a key={question.slug} className="card" href={`/questions/${question.slug}`}>
+            {question.title}
+          </a>
         ))}
-      </ul>
+      </div>
+      <h2 id="comparisons">comparisons</h2>
+      <div className="card-grid agents">
+        {agents.map((agent) => (
+          <a key={agent.id} className="card card-agent" href={`/agents/${slugFor(agent)}`}>
+            {displayName(agent)}
+          </a>
+        ))}
+      </div>
+      <div className="card-grid vs">
+        {pairsFor().map((pair) => (
+          <a key={pair.slug} className="card card-vs" href={`/vs/${pair.slug}`}>
+            {displayName(pair.a)} vs {displayName(pair.b)}
+          </a>
+        ))}
+      </div>
       <h2 id="changelog">changelog</h2>
       <ul className="link-list">
         {changelog.map((entry) => (
@@ -72,14 +58,7 @@ export default function HomePage() {
           </li>
         ))}
       </ul>
-      <h2>pages</h2>
-      <ul className="link-list page-list">
-        {indexableRoutes().map((route) => (
-          <li key={route.path}>
-            <a href={route.path}>{route.title}</a>
-          </li>
-        ))}
-      </ul>
+      <Checked />
     </>
   );
 }

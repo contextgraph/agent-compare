@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
-import { aliasFacts, identitySlots, renderedFacts } from "../lib/columns";
+import { columnBullets } from "../lib/bullets";
+import { aliasFacts, columnsFor, identitySlots, renderedFacts } from "../lib/columns";
 import { agents, isFact, latestCheckedOn, walkFacts, displayName, slugFor } from "../lib/data";
 import { present, stringLeaves } from "../lib/focus";
 import { allLeadEntries, leadFor } from "../lib/leads";
@@ -166,6 +167,41 @@ for (const file of source) {
 }
 
 if (!latestCheckedOn()) fail("no checked_on dates");
+
+for (const agent of agents) {
+  for (const column of columnsFor()) {
+    for (const bullet of columnBullets(agent, column)) {
+      if (bullet.unverified) continue;
+      if (!bullet.sources.length || !/^\d{4}-\d{2}-\d{2}$/.test(bullet.checked_on)) {
+        fail(`compact cell missing source or checked_on: ${agent.id} ${column.id}`);
+      }
+      for (const source of bullet.sources) {
+        if (!/^https:\/\/\S+$/.test(source.href) || !corpus.includes(source.href)) {
+          fail(`compact source is not in the dataset: ${agent.id} ${column.id} ${source.href}`);
+        }
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(source.checked_on)) {
+          fail(`compact source missing checked_on: ${agent.id} ${column.id}`);
+        }
+      }
+      if (bullet.excerpt) {
+        const hay = column
+          .slots(agent)
+          .map((slot) => (typeof slot.fact.value === "string" ? slot.fact.value : JSON.stringify(slot.fact.value)))
+          .join("\n")
+          .replace(/\s+/g, " ");
+        if (!hay.includes(bullet.excerpt.replace(/\s+/g, " "))) {
+          fail(`compact excerpt is not in the fact: ${agent.id} ${column.id}`);
+        }
+      }
+      if (column.id === "price") {
+        const plans = JSON.stringify(agent.plans);
+        for (const number of bullet.text.match(/\d+(?:\.\d+)?/g) ?? []) {
+          if (!plans.includes(number)) fail(`price ${number} is not in ${agent.id} plans`);
+        }
+      }
+    }
+  }
+}
 
 if (errors.length) {
   console.error(errors.join("\n"));
