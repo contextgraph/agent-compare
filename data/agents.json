@@ -4,47 +4,47 @@
     "name": {
       "value": "ChatGPT (Work and dots)",
       "source": "https://openai.com/index/introducing-dots/",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Two current official products. ChatGPT Work is 'an agent designed for longer, multi-step work and finished deliverables' (https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex). Dots are 'always-on agents' in ChatGPT; a first dot is included in Pro and Business Premium in eligible markets, and a dot can start or manage tasks in ChatGPT Work or Codex, which then count toward those usage limits. Official typography is usually 'dots' / 'your dot'. ChatGPT agent / agent mode is retired; its help page still says to use ChatGPT Work instead."
     },
     "aliases": [
       {
         "value": "ChatGPT Work / Work (current official name for the multi-step work agent in ChatGPT)",
         "source": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       {
         "value": "dots / your dot / Dots (current official name for the always-on personal agent)",
         "source": "https://openai.com/index/introducing-dots/",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Help Center titles use 'your dot' and 'dots'; some help sentences capitalize 'Dots'."
       },
       {
         "value": "ChatGPT agent / agent mode (former; official help states it is no longer available and to use ChatGPT Work)",
         "source": "https://help.openai.com/en/articles/11752874-chatgpt-agent",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "The help article is still titled ChatGPT agent and still contains leftover agent-mode how-to and 40/400 monthly message limits after the retirement notice. Those leftover limits are not recorded as confirmed current Work or dots quotas."
       },
       {
         "value": "Operator (former; official help states Operator functionality was integrated into ChatGPT agent mode and the Operator website is no longer accessible)",
         "source": "https://help.openai.com/en/articles/11752874-chatgpt-agent",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     ],
     "vendor": {
       "value": "OpenAI",
       "source": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "homepage": {
       "value": "https://chatgpt.com/",
       "source": "https://chatgpt.com/pricing/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "type": {
       "value": "Two current official agents in ChatGPT: Work, a multi-step agent for longer tasks and finished deliverables, available in ChatGPT web, mobile, and desktop; and dots, always-on personal agents with their own cloud computer and browser that keep working between conversations.",
       "source": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Work definition from the ChatGPT Work and Codex help page. Dots definition from https://openai.com/index/introducing-dots/ and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot."
     },
     "plans": [
@@ -52,35 +52,35 @@
         "name": {
           "value": "Free",
           "source": "https://chatgpt.com/pricing/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 0,
           "source": "https://chatgpt.com/pricing/",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "The free version of ChatGPT is available to everyone."
         },
         "billing_unit": {
           "value": "per month",
           "source": "https://chatgpt.com/pricing/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Pro prices are stated in USD; Free is $0."
         },
         "included": {
           "value": "Free ChatGPT is available to everyone. Pricing comparison shows Scheduled tasks: No on Free. Cloud browser is not available on Free or Go. Event-triggered scheduled tasks are not available on Free or Go. Active scheduled-task limit for Free and Go is 3. Free users can schedule a one-time or recurring task no more than once per day, with flexible windows (morning, afternoon, or night). Official dots help does not list Free as a plan that includes dots.",
           "source": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Dots availability is from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot, which names Pro, selected Plus, Business, Enterprise, Edu, and Healthcare, not Free or Go."
         },
         "overage": {
           "value": null,
           "source": null,
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "unverified: No official overage or credit price for Free-plan Work/agent usage was found on the pages fetched today."
         }
       },
@@ -88,34 +88,34 @@
         "name": {
           "value": "Go",
           "source": "https://help.openai.com/en/articles/11989085-what-is-chatgpt-go",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": null,
           "source": null,
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "unverified: The Go help article says prices are on the ChatGPT pricing page and billing is automatic monthly in USD, but the fetched pricing page did not expose a Go dollar amount."
         },
         "billing_unit": {
           "value": "per month; annual billing is not available for Go, Plus, or Pro",
           "source": "https://help.openai.com/en/articles/11989085-what-is-chatgpt-go",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD; local-currency billing in a limited set of countries",
           "source": "https://help.openai.com/en/articles/11989085-what-is-chatgpt-go",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Expanded access versus Free for eligible features such as image generation, file uploads, and data analysis; longer memory; access to projects, tasks, custom GPTs, and Library subject to availability. Some advanced features may require Plus or another eligible plan. Cloud browser excludes Free and Go. Event-triggered tasks are not available on Free or Go. Official dots help does not list Go as a plan that includes dots.",
           "source": "https://help.openai.com/en/articles/11989085-what-is-chatgpt-go",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Dots availability is from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot, which does not name Go."
         },
         "overage": {
           "value": null,
           "source": null,
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "unverified: No official Go overage rate for Work usage was found on the pages fetched today."
         }
       },
@@ -123,170 +123,172 @@
         "name": {
           "value": "Plus",
           "source": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 20,
           "source": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "ChatGPT Plus is $20/month, billed monthly."
         },
         "billing_unit": {
           "value": "per user per month; no annual billing for Plus",
           "source": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Broader model and tool access than Free, including voice, image generation, file uploads, and Deep Research where available. The pricing page lists expanded ChatGPT Work access on desktop, web, and mobile, plus projects, scheduled tasks, and custom GPTs. Cloud browser is available in ChatGPT Work on paid plans excluding Free and Go, subject to rollout and workspace permissions. Dots are gradually rolling out to selected ChatGPT Plus users aged 18 or older outside the European Economic Area (including the EU), the UK, and Switzerland; OpenAI Support cannot enable dots if the rollout has not reached an account.",
           "source": "https://chatgpt.com/pricing/",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Dots rollout and eligibility from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot. Work and cloud-browser access remain as sourced on this field."
         },
         "overage": {
           "value": "For eligible features, users can purchase credits after using a plan's included allowance. Credits can support eligible usage in Codex, ChatGPT Work, and ChatGPT for Word, Excel, and PowerPoint, depending on plan and account. Plus-specific credit rates were not itemized on the Pro-tiers page.",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Pro 100",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 100,
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Pro 100 is $100 USD per month."
         },
         "billing_unit": {
           "value": "per month; Pro is billed monthly, with no annual billing",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "ChatGPT Pro includes Pro models, Codex, deep research, image creation, memory, and file uploads. The pricing page lists longer Codex and ChatGPT Work sessions, Dot (described as 'your always-on agent'), maximum deep research, and maximum memory and context. Pro 100 and Pro 500 now include twice their previous Work and Codex allowance. Unlimited access is subject to abuse guardrails. Ultrafast is not included on Pro 100. Official dots pages: the first dot is included in ChatGPT Pro in eligible markets at no extra cost for users aged 18 or older outside the EEA, Switzerland, and the UK. Conversations with a dot do not count toward ChatGPT usage limits; tasks a dot starts or manages in ChatGPT Work or Codex count toward those limits as usual.",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Dots inclusion, age/region limits, and usage-counting from https://openai.com/index/introducing-dots/ and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot."
         },
         "overage": {
           "value": "Eligible features can continue on purchased credits after the included allowance. Credits do not add usage for every ChatGPT model or feature.",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Pro 200",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 200,
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Monthly price remains $200."
         },
         "billing_unit": {
           "value": "per month",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
-          "value": "Pro 200 includes more usage than Pro 100. Ultrafast is not included. The Work and Codex allowance was updated as described in the Pro tiers article. Official dots pages: the first dot is included in ChatGPT Pro in eligible markets at no extra cost for users aged 18 or older outside the EEA, Switzerland, and the UK. Conversations with a dot do not count toward ChatGPT usage limits; tasks a dot starts or manages in ChatGPT Work or Codex count toward those limits as usual.",
+          "value": "Pro 200 includes more usage than Pro 100. The Pro tiers article says Ultrafast is not included on Pro 200. ChatGPT Work and Codex help says Pro 200 includes GPT-6.2 Sol Ultrafast in Codex using existing plan limits: included allowance draws down at 6x Standard, and purchased-credit usage is charged at a promotional 3x Standard rate through 28 February 2027. GPT-6.2 Astra, GPT-6 Astra, and GPT-6.1 Sol Ultrafast remain unavailable on Pro 200. Ultrafast remains unavailable on Plus, Pro 100, and Business, including through credits. Official dots pages: the first dot is included in ChatGPT Pro in eligible markets at no extra cost for users aged 18 or older outside the EEA, Switzerland, and the UK. Conversations with a dot do not count toward ChatGPT usage limits; tasks a dot starts or manages in ChatGPT Work or Codex count toward those limits as usual.",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20",
-          "note": "Dots inclusion, age/region limits, and usage-counting from https://openai.com/index/introducing-dots/ and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot."
+          "checked_on": "2026-11-23",
+          "note": "Dots inclusion, age/region limits, and usage-counting from https://openai.com/index/introducing-dots/ and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot. GPT-6.2 Sol Ultrafast rates are from https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex. The Pro tiers article still says Ultrafast is not included on Pro 200."
         },
         "overage": {
           "value": "Same credit mechanism as other Pro plans for eligible features after the included allowance.",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Pro 500",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 500,
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Pro 500 is $500/month and includes GPT-6 Astra Ultrafast and GPT-6.1 Sol Ultrafast."
         },
         "billing_unit": {
           "value": "per month",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
-          "value": "Highest included usage of the three Pro plans. Among Pro plans, Ultrafast is included only on Pro 500. For GPT-6 Astra and GPT-6.1 Sol, Ultrafast uses included usage first at 8x the Standard rate, then credits at 6x the Standard credit rate. Official dots pages: the first dot is included in ChatGPT Pro in eligible markets at no extra cost for users aged 18 or older outside the EEA, Switzerland, and the UK. Conversations with a dot do not count toward ChatGPT usage limits; tasks a dot starts or manages in ChatGPT Work or Codex count toward those limits as usual.",
+          "value": "Highest included usage of the three Pro plans. The Pro tiers article says that, among Pro plans, Ultrafast is included only on Pro 500, and that for GPT-6 Astra and GPT-6.1 Sol, Ultrafast uses included usage first at 8x the Standard rate, then credits at 6x the Standard credit rate. ChatGPT Work and Codex help adds GPT-6.2 Astra and GPT-6.2 Sol on Pro 500: Ultrafast uses the included Work and Codex allowance at 6x the Standard rate for the selected model, then purchased credits at a promotional 3x Standard rate through 28 February 2027. GPT-6 Astra and GPT-6.1 Sol continue at 8x included and 6x on credits. Official dots pages: the first dot is included in ChatGPT Pro in eligible markets at no extra cost for users aged 18 or older outside the EEA, Switzerland, and the UK. Conversations with a dot do not count toward ChatGPT usage limits; tasks a dot starts or manages in ChatGPT Work or Codex count toward those limits as usual.",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20",
-          "note": "Dots inclusion, age/region limits, and usage-counting from https://openai.com/index/introducing-dots/ and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot."
+          "checked_on": "2026-11-23",
+          "note": "Dots inclusion, age/region limits, and usage-counting from https://openai.com/index/introducing-dots/ and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot. GPT-6.2 Ultrafast rates are from https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex."
         },
         "overage": {
-          "value": "After the included allowance, eligible usage can draw from a credit balance. Ultrafast on purchased credits is charged at 6x the Standard credit rate for the selected model.",
+          "value": "After the included allowance, eligible usage can draw from a credit balance. The Pro tiers article says Ultrafast on purchased credits is charged at 6x the Standard credit rate for GPT-6 Astra and GPT-6.1 Sol. ChatGPT Work and Codex help says that on Pro 500, GPT-6.2 Astra and GPT-6.2 Sol Ultrafast purchased-credit usage is charged at a promotional 3x Standard rate through 28 February 2027.",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23",
+          "note": "GPT-6.2 promotional credit rate from https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex."
         }
       },
       {
         "name": {
           "value": "Business, Enterprise, and Edu",
           "source": "https://chatgpt.com/pricing/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": null,
           "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: The pricing page says Business and Enterprise are priced per user per month, with monthly plans for Business and annual plans for Business and Enterprise, and Enterprise invoicing via sales. A clear per-seat dollar amount was not visible in the fetched pricing-page text."
+          "checked_on": "2026-11-23",
+          "note": "unverified: chatgpt.com/pricing and https://openai.com/business/pricing/ still do not show a Business or Enterprise per-seat dollar amount. Both say paid business plans are priced per user per month. chatgpt.com/pricing says monthly plans for Business and annual plans for Business and Enterprise, with Enterprise invoicing via sales. openai.com/business/pricing lists Enterprise as custom pricing and says a Business workspace includes up to $500 per month in API credits."
         },
         "billing_unit": {
           "value": "per user per month; annual plans offered for Business and Enterprise",
           "source": "https://chatgpt.com/pricing/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
-          "value": "Cloud browser and Work availability can depend on workspace permissions. Event-triggered tasks require admin enablement in some workspaces. Dots: Business Premium users in supported ChatGPT regions can use dots, subject to workspace eligibility; dots are rolling out to eligible ChatGPT Business Standard members in the United States (one personal dot per member, usage limits apply). For eligible Enterprise, Edu, and Healthcare workspaces, dots became available by default starting 18 November 2026 unless an admin opts out; they are not available for workspaces with UAE data or inference residency. Official Enterprise help: there is no fee for an Enterprise dot through 13 January 2027; billing for enabled dots begins 14 January 2027; work a dot starts in a separate ChatGPT Work or Codex thread still uses existing allowances or rates. Introducing dots states OpenAI does not use content from ChatGPT Business, Enterprise, or Edu workspaces to improve models by default.",
+          "value": "Cloud browser and Work availability can depend on workspace permissions. Event-triggered tasks require admin enablement in some workspaces. Dots: Business Premium users in supported ChatGPT regions can use dots, subject to workspace eligibility; dots are rolling out to eligible ChatGPT Business Standard members in the United States (one personal dot per member, usage limits apply). For eligible Enterprise, Edu, and Healthcare workspaces, dots became available by default starting 18 November 2026 unless an admin opts out; they are not available for workspaces with UAE data or inference residency. Official Enterprise help: there is no fee for an Enterprise dot through 13 January 2027; billing for enabled dots begins 14 January 2027; a full paid month costs $50 per Standard dot, $200 per Advanced dot, or $500 per Expert dot; work a dot starts in a separate ChatGPT Work or Codex thread still uses existing allowances or rates. Introducing dots states OpenAI does not use content from ChatGPT Business, Enterprise, or Edu workspaces to improve models by default.",
           "source": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
-          "checked_on": "2026-11-20",
-          "note": "Dots workspace and date details also from https://help.openai.com/en/articles/20001554-managing-dots-in-chatgpt-workspaces and https://help.openai.com/en/articles/20001641-pricing-and-billing-for-dots-in-chatgpt-enterprise. Training-default sentence from https://openai.com/index/introducing-dots/. This field no longer uses the retired ChatGPT agent help article."
+          "checked_on": "2026-11-23",
+          "note": "Dots workspace and date details also from https://help.openai.com/en/articles/20001554-managing-dots-in-chatgpt-workspaces and https://help.openai.com/en/articles/20001641-pricing-and-billing-for-dots-in-chatgpt-enterprise. The $50 / $200 / $500 full-month Enterprise dot prices were read in full from that pricing article on 23 November 2026. Training-default sentence from https://openai.com/index/introducing-dots/. This field no longer uses the retired ChatGPT agent help article."
         },
         "overage": {
-          "value": "A pricing-page footnote states that Enterprise and Business can purchase credits for more access.",
-          "source": "https://chatgpt.com/pricing/",
-          "checked_on": "2026-11-20"
+          "value": "A chatgpt.com/pricing footnote states that Enterprise and Business can purchase credits for more access. openai.com/business/pricing states that a Business workspace includes up to $500 per month in API credits, and that credit-based and token-based pricing are available for Enterprise plans.",
+          "source": "https://openai.com/business/pricing/",
+          "checked_on": "2026-11-23",
+          "note": "The purchase-credits footnote is also on https://chatgpt.com/pricing/."
         }
       }
     ],
@@ -301,93 +303,93 @@
           "paid_frequency": "Eligible paid plans support recurring tasks up to once per hour and exact delivery times.",
           "event_triggered": "Event-triggered tasks can run up to 30 times per hour and 720 times per day across all event-triggered tasks."
         },
-        "work_usage": "Work follows the same usage structure as Codex. Included usage and additional credits are explained on the Codex pricing page, and Work usage varies by task.",
-        "dots_usage": "Conversations with a dot do not count toward ChatGPT usage limits. When a user asks a dot to start or manage tasks in Codex or ChatGPT Work, those tasks count toward usage limits as usual. Official pages do not publish a simple consumer message quota for dots themselves. For eligible ChatGPT Enterprise workspaces, official help says there is no fee for the Enterprise dot through 13 January 2027, with billing for enabled dots beginning 14 January 2027, and that Work or Codex threads a dot starts are billed or counted separately."
+        "work_usage": "Work follows the same usage structure as Codex. Included usage and additional credits are explained on the Codex pricing page, and Work usage varies by task. Official help updated 22 November 2026 says that starting in December, Plus, Pro, and Business plans' usage allowance will be shared across ChatGPT and Codex and measured in tokens. How much of the allowance a task uses depends on the model and the task. Instant chat will not draw from that usage. If the limit is reached, the same article says you can wait for a reset, upgrade, or buy credits for eligible features.",
+        "dots_usage": "Conversations with a dot do not count toward ChatGPT usage limits. When a user asks a dot to start or manage tasks in Codex or ChatGPT Work, those tasks count toward usage limits as usual. Official pages do not publish a simple consumer message quota for dots themselves. For eligible ChatGPT Enterprise workspaces, official help says there is no fee for the Enterprise dot through 13 January 2027, with billing for enabled dots beginning 14 January 2027. A full paid month costs $50 per Standard dot, $200 per Advanced dot, or $500 per Expert dot. Work or Codex threads a dot starts are billed or counted separately."
       },
       "source": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
-      "checked_on": "2026-11-20",
-      "note": "Scheduled-task caps are from this scheduled-tasks article. work_usage is from https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex. dots_usage is from https://openai.com/index/introducing-dots/, https://help.openai.com/en/articles/20001530-getting-started-with-your-dot, and https://help.openai.com/en/articles/20001641-pricing-and-billing-for-dots-in-chatgpt-enterprise. The 40/400 monthly message limits that still appear on the retired ChatGPT agent help page were removed from this field; they are not confirmed as current Work or dots quotas."
+      "checked_on": "2026-11-23",
+      "note": "Scheduled-task caps are from this scheduled-tasks article. work_usage Codex structure is from https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex. The December shared Plus, Pro, and Business allowance is from https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits. dots_usage is from https://openai.com/index/introducing-dots/, https://help.openai.com/en/articles/20001530-getting-started-with-your-dot, and https://help.openai.com/en/articles/20001641-pricing-and-billing-for-dots-in-chatgpt-enterprise. Enterprise dot dollar amounts were read in full from that pricing article on 23 November 2026. The 40/400 monthly message limits that still appear on the retired ChatGPT agent help page were removed from this field; they are not confirmed as current Work or dots quotas."
     },
     "accounts_apps": {
       "email": {
         "value": "Work / scheduled tasks: event-triggered scheduled tasks can respond to supported Gmail activity (a new message, or a filter by sender or subject) for eligible Plus, Pro, Business, Enterprise, and Edu users after connecting Gmail in Settings > Apps. Cloud-browser examples include tracking a package using details from a connected email account. Dots: official help says you can connect your personal email account so your dot can use it for tasks; at launch you cannot give your dot its own standalone email address. Plugin permissions are shared across dots, ChatGPT, ChatGPT Work, and Codex. Custom Rules can include telling a dot never to send emails. Sending messages is subject to approval rules.",
         "source": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Work/scheduled-task Gmail behavior is from https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt. Dots plugin-permission sharing and Custom Rules examples are from https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs."
       },
       "calendar": {
         "value": "Dots: official getting-started help says you can ask your dot to set a reminder or run a recurring check, for example to review your calendar each morning and tell you what is coming up. Official pages fetched for this update do not clearly document a first-party Calendar connector or calendar write actions for ChatGPT Work itself.",
         "source": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "The Work-side Calendar connector remains unverified. This value covers only what official dots help states."
       },
       "browser": {
         "value": "Cloud browser gives ChatGPT Work its own browser on a separate computer in the cloud. It can read pages, click buttons, enter information into forms, and carry out steps on supported public and signed-in websites. ChatGPT may use a connected app or plugin, the cloud browser, or both. It does not use the user's local browser tabs, history, saved passwords, cookies, extensions, or existing sign-ins. Dots also have their own cloud computer and cloud browser; introducing dots says you can open your dot's computer to inspect its work. Local computer access is optional and starts turned off; with it enabled, a dot can use your local browser when its cloud browser is blocked.",
         "source": "https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Dots cloud computer/browser and optional local browser use are from https://openai.com/index/introducing-dots/ and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot."
       },
       "files": {
         "value": "Work is designed for finished deliverables. The desktop app can use local files when local Work access is enabled. Cloud Work and local Work access may roll out at different times. The cloud browser does not automatically inherit local files. Dots: access to your local computer is optional and starts turned off; after you connect a computer in the ChatGPT desktop app and confirm Allow access, your dot can access files and work on that computer from any of its messaging channels. Official help also says a dot can use plugins already set up in ChatGPT or Work.",
         "source": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Dots local-computer and plugin access from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot and https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs."
       },
       "messaging": {
         "value": "Work / scheduled tasks: event-triggered tasks can respond to new Slack channel messages; @ChatGPT must be added to each monitored Slack channel. Dots: official pages say you can message or call dots in ChatGPT on desktop, web, and mobile, and can message a dot in Slack and Teams; you can connect a dot to Slack from ChatGPT on desktop, and can set up a separate Slack account so the dot has its own identity. Introducing dots said texting was coming soon.",
         "source": "https://openai.com/index/introducing-dots/",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Scheduled Slack triggers are from https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt. Slack/email connection details are from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot and https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs."
       },
       "payments": {
         "value": "Work / cloud browser: ChatGPT is designed to request confirmation before actions such as confirming a booking or making a payment; official cloud-browser help says not to paste payment details into the conversation. Dots: official privacy FAQ says a dot can make purchases using a card saved on a merchant website, and those purchases require approval, which may be given in advance when it specifically covers the purchase. The most sensitive actions, such as transferring money, require the user to take over and complete them. Custom Rules can set what a dot may share, purchase, or access. For supported sign-ins, the dot pauses while the user enters credentials in a secure form that does not expose them to the model.",
         "source": "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Cloud-browser confirmation language is also from https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt. Custom Rules for purchases are mentioned in https://help.openai.com/en/articles/20001530-getting-started-with-your-dot."
       }
     },
     "schedule_or_away": {
       "value": "Work / cloud browser: cloud-browser tasks can start on web or mobile and keep working after the user leaves the conversation or closes the computer; they pause when input, sign-in, or confirmation is needed. ChatGPT can run one-time or recurring scheduled tasks, monitor for changes, and respond to supported app events. Event-triggered webhook-based tasks run in Work for supported Gmail, Slack, or GitHub activity on eligible paid plans. Tasks are managed at chatgpt.com/schedules. Dots: official pages describe dots as always-on agents that keep making progress between conversations, 24/7, on their own cloud computer, including after you close your laptop. You can ask a dot to set a reminder or run a recurring check; scheduled runs and proactive updates appear in the conversation and can be managed in Recent activity or the Scheduled section in ChatGPT. When you are not actively working with it, a dot can do 'proactive research' using already-connected apps with tools restricted to be read-only (they cannot send messages, change app content, or control a browser or computer). Authorized background tasks still follow ordinary action rules and safety checks.",
       "source": "https://openai.com/index/introducing-dots/",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Cloud-browser and scheduled-task behavior from https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt and https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt. Dots scheduling and proactive-research limits from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot and https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs."
     },
     "memory": {
       "value": "The pricing page lists Memory, including Memory with past chats (Limited on Free) and Memory sources. Dots share memory with ChatGPT: a dot can receive memories and recent conversation context from ChatGPT, and conversations with a dot can contribute to ChatGPT Memory. Turning off Memory in ChatGPT stops that sharing but does not delete information the dot already received. A dot can retain context from conversations and plugins for as long as the dot is kept; deleting the dot starts deletion of its own context. The dot's context does not retain credentials, images, or screenshots. A dot receives memories from ChatGPT and can create its own memories, including from connected apps. Official help says you currently cannot view, delete, or directly modify individual dot memories; deleting the dot starts deletion of its own context. Disconnecting a plugin stops new access but does not delete information the dot has already built into its context. Files, Codex threads, and ChatGPT conversations a dot created are stored separately and are not deleted when the dot is deleted. ChatGPT memories remain and are managed in ChatGPT Memory settings.",
       "source": "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Shared-memory behavior was already sourced to this dots privacy FAQ. Additional deletion and plugin-disconnect rules are from the same article and https://help.openai.com/en/articles/20001530-getting-started-with-your-dot."
     },
     "approvals": {
       "value": "Work / cloud browser: by default ChatGPT asks permission before accessing a new website, with Always ask, Auto approve, or Always allow site-access settings. Website access permission is separate from approval for consequential actions. ChatGPT is designed to request confirmation before hard-to-reverse financial, legal, account, or other real-world commitments, such as confirming a booking or making a payment. Sign-in uses a secure form; credentials are not visible to the model and are not stored. Users can take over the cloud browser. Scheduled tasks that send a message or change external data may require approval, and the task pauses until reviewed. Dots: official help says a dot comes with strong defaults for which actions need approval each time, which can be approved in advance, and which can run without asking. Custom Rules can set 'Take action without asking', 'Take action if pre-approved', 'Ask before taking action', or 'Hand off to you'. Custom Rules cannot turn off core safety requirements (such as taking over to change a password), Auto-review, or restrictions on proactive research. The most sensitive actions, such as changing a password or transferring money, require the user to take over. Other actions such as permanently deleting data or installing software may require approval each time. Approving one message does not give a dot ongoing permission to contact people. Auto-review checks certain planned actions against instructions, Custom Rules, and safety requirements.",
       "source": "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Cloud-browser approval settings are from https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt. Custom Rules option labels are from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot. Language previously taken only from the retired ChatGPT agent help article (watch mode, screenshot pause during takeover) was removed."
     },
     "where_it_runs": {
       "value": "Work: Cloud Work runs remotely; local Work in the ChatGPT desktop app can use approved files and tools on a connected computer while that computer stays online. A built-in browser in the desktop app is distinct from the remote cloud browser. Cloud browser runs on ChatGPT's own computer in the cloud, separate from the device browser, and is available in ChatGPT Work on web or mobile. Dots: each dot works on its own cloud computer and browser, separate from the user's computer unless the user connects it. Local computer access is optional and starts turned off. Camera, microphone, or screen access requires connecting the computer and granting ChatGPT app permission in device settings.",
       "source": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Cloud-browser location from https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt. Dots cloud computer and optional local access from https://openai.com/index/introducing-dots/, https://help.openai.com/en/articles/20001530-getting-started-with-your-dot, and https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs."
     },
     "privacy": {
       "training_on_your_data": {
         "value": "Dots, official privacy FAQ: for ChatGPT Business, Enterprise, and Edu workspaces, OpenAI does not use your data to train models by default. For personal ChatGPT plans, the 'Improve the model for everyone' setting controls whether a dot's conversations and work may be used to improve models, which may include actions dots take, work they delegate to other agents, automations you set up, and data from connected apps used to inform conversations. OpenAI says it takes steps to remove personal identifiers where possible before using eligible data. It does not train directly on proactive background research or its notes; if a dot brings information from that research into an eligible conversation or task, that information may be used for training depending on settings. Human review may still occur in limited circumstances, including safety-related cases, even when model improvement is turned off. This field no longer uses screenshot or 'agent-mode session' training language from the retired ChatGPT agent help article.",
         "source": "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "The same default for Business, Enterprise, and Edu, and the personal-plan control for dots, also appear on https://openai.com/index/introducing-dots/. Work-specific screenshot training policy from the retired agent article was not confirmed on a current Work or dots page and was removed."
       },
       "retention": {
         "value": "Dots: a dot can retain context from conversations and plugins for as long as you keep the dot. Deleting the dot starts deletion of its own context. Information the dot has shared with ChatGPT Memory is managed separately in ChatGPT Memory settings. Official help says a dot's context does not retain credentials, images, or screenshots. Files a dot creates or uses in ChatGPT Library, on your computer, or in a connected storage service follow that location's retention policies; deleting a Library file does not by itself delete a copy already attached to the dot's conversation. Content is encrypted in storage and in transit. In an eligible Enterprise workspace with Enterprise Key Management, long-term data in new dots supports customer-managed encryption keys. Pausing a dot or removing workspace access does not delete the dot's stored information. Work / cloud browser: website information follows ChatGPT data-control settings; cookies and sessions can be cleared in Settings > Cloud browser. A numeric 90-day deletion window for chats and screenshots appeared only on the retired ChatGPT agent help page and is not recorded here as a confirmed current Work or dots retention period.",
         "source": "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Cloud-browser cookie and session controls are from https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt."
       }
     },
     "platforms": {
       "value": "Work: ChatGPT web, mobile (iOS and Android), and desktop apps (macOS and Windows). Cloud browser is available in ChatGPT Work on web or mobile. Scheduled-page availability in the desktop app depends on app, version, and account; if it does not appear, use ChatGPT on the web. Voice or Live is available with Work on web and mobile and with Work or Codex in the desktop app for eligible accounts. Dots: create and use a dot in the ChatGPT mobile app on iOS or Android, the desktop app (including Windows), or desktop web; dots are not supported on mobile web. After setup, you can message a dot in the ChatGPT mobile app and can also message it in Slack and Teams. Dots are not yet available to users under 18, and official help says they are not currently available in the EEA (including the EU), the UK, or Switzerland.",
       "source": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Work, cloud-browser, scheduled-page, and Voice/Live platforms are from this Work help article and https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt and https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt. Dots platforms, age, and region limits are from https://help.openai.com/en/articles/20001530-getting-started-with-your-dot and https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs. This field no longer uses the retired ChatGPT agent help article as its source."
     }
   },
@@ -396,52 +398,52 @@
     "name": {
       "value": "Claude (Cowork and Claude Duet)",
       "source": "https://claude.com/product/claude-duet",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Two current official surfaces. Claude Cowork is the knowledge-work agent, now being merged into Claude (https://claude.com/product/cowork and https://claude.com/resources/articles/cowork-is-now-claude). Claude Duet is a research-preview proactive personal agent, available via waitlist to US Pro, Max, and Ultra subscribers as a standalone app on iOS, Android, and claude.ai. Claude in Chrome, connectors, and computer use are official features used with Claude/Cowork, not the product name of the personal agent."
     },
     "aliases": [
       {
         "value": "Claude Cowork (current official knowledge-work agent; official pages say it is now part of Claude / merging with chat)",
         "source": "https://claude.com/product/cowork",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       {
         "value": "Claude Duet (current official research-preview proactive personal agent)",
         "source": "https://claude.com/product/claude-duet",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Announced in Claude release notes dated 21 October 2026: https://support.claude.com/en/articles/12138966-release-notes"
       },
       {
         "value": "Claude (unified chat and Cowork experience, rolling out)",
         "source": "https://claude.com/resources/articles/cowork-is-now-claude",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Updates on that page: generally available for Enterprise on 23 October 2026 and for Team on 12 November 2026."
       },
       {
         "value": "Claude in Chrome (official browser-extension feature, not a separate personal-agent product name)",
         "source": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       {
         "value": "computer use (official feature in Cowork and Claude Code, research preview / beta depending on plan)",
         "source": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     ],
     "vendor": {
       "value": "Anthropic",
       "source": "https://claude.com/pricing",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "homepage": {
       "value": "https://claude.com/",
       "source": "https://claude.com/pricing",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "type": {
       "value": "Official Claude surfaces for personal and knowledge work: Claude Cowork (knowledge-work agent, now being unified with chat) plus optional Claude in Chrome and on-device computer use; and Claude Duet, a research-preview proactive personal agent with its own cloud computer that keeps working after you close the app.",
       "source": "https://claude.com/product/claude-duet",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Cowork and Chrome/computer-use descriptions remain as documented on https://claude.com/product/cowork and https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome."
     },
     "plans": [
@@ -449,34 +451,34 @@
         "name": {
           "value": "Free",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 0,
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Free for everyone, $0."
         },
         "billing_unit": {
           "value": "no charge",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD; prices shown exclude applicable tax",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Limited usage every 5 hours and every week. Chat on web, desktop, and mobile; search the web, create files, and run code; memory; connectors; Artifacts; Claude Design, Slides, and Docs. The feature comparison table lists Claude Code as No on Free. Claude in Chrome and computer use are documented as available on paid plans, not Free. Official Claude Duet pages say the research preview is for Pro, Max, and Ultra plans in the US, not Free.",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Duet eligibility from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
         },
         "overage": {
           "value": null,
           "source": null,
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "unverified: No official pay-as-you-go overage for Free consumer chat or agent usage was stated on the fetched pricing page."
         }
       },
@@ -484,7 +486,7 @@
         "name": {
           "value": "Pro",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -493,104 +495,104 @@
             "annual_prepaid": 200
           },
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Per month with annual subscription discount ($200 billed up front). $20 if billed monthly."
         },
         "billing_unit": {
           "value": "per month, or annual prepaid",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD; prices exclude applicable tax and are subject to change at Anthropic's discretion",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Everything in Free, plus more usage than Free every 5 hours and every week; Claude Code; hand off and schedule tasks; more Claude models; Claude in Chrome and Microsoft 365. Claude in Chrome, Cowork, and computer use are available on Pro. Computer use may already have the enable toggle on for some Pro accounts; first app use still requires confirmation. Claude Duet is included with Pro during the US research preview at no extra cost, via waitlist; it uses the same plan usage limits as the rest of Claude.",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Duet inclusion and waitlist from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet and https://claude.com/product/claude-duet."
         },
         "overage": {
           "value": "Pro includes the option of usage credits (feature table: Usage credits Yes; Fable paid with usage credits). Exact credit-pack prices were not extracted from the fetched pricing page.",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Max",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 100,
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Max is listed at $100."
         },
         "billing_unit": {
           "value": "per month",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD; excludes applicable tax",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Everything in Pro, plus 5x Pro usage every 5 hours and every week; Fable included up to half the weekly limit; $100 a month in API credits; early access; priority access at high traffic times. Claude Duet is included with Max during the US research preview at no extra cost, via waitlist; it uses the same plan usage limits as the rest of Claude.",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Duet inclusion and waitlist from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet and https://claude.com/product/claude-duet."
         },
         "overage": {
           "value": "$100 a month in API credits to build on the Claude Platform, as stated on the pricing page. Additional credit-pack prices were not extracted.",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Ultra",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 200,
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Ultra is listed at $200."
         },
         "billing_unit": {
           "value": "per month",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD; excludes applicable tax",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Everything in Max, plus no 5-hour limit for verified accounts, 10x Pro usage every week, and $200 a month in API credits (up from $100 on Max). Claude Duet is included with Ultra during the US research preview at no extra cost, via waitlist; it uses the same plan usage limits as the rest of Claude.",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Duet inclusion and waitlist from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet and https://claude.com/product/claude-duet."
         },
         "overage": {
           "value": "$200 a month in API credits, as stated on the pricing page.",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Team Standard seat",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -598,36 +600,36 @@
             "annual_per_month": 20
           },
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$25 per member per month billed monthly; $20 per member per month billed annually. US prices, exclude taxes. Minimum two members. Up to 150 seats."
         },
         "billing_unit": {
           "value": "per member per month, monthly or annual billing",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD for US customers; currency and tax handling vary by region",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Larger per-session usage than Pro (Standard seats include 1.25x the Pro plan's per-session usage allowance) plus a weekly usage limit; option to purchase usage credits; admin tools; SSO, domain capture, JIT, RBAC, spend controls; enterprise search; workplace connectors; monthly API credits; everything in Pro including Claude Code and Cowork. Claude in Chrome and Cowork are available on Team. Official Claude Duet pages say Team and Enterprise plans are not included in the research preview yet.",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Duet plan exclusion from https://claude.com/product/claude-duet and https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
         },
         "overage": {
           "value": "Organizations can enable usage credits so members can continue after included limits. Credit-pack prices were not stated in this article.",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Team Premium seat",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -635,154 +637,153 @@
             "annual_per_month": 100
           },
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$125 per member per month billed monthly; $100 per member per month billed annually."
         },
         "billing_unit": {
           "value": "per member per month, monthly or annual billing",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD for US customers; excludes applicable taxes",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "All Standard seat features plus significantly more usage: Premium seats include 6.25x the Pro plan's per-session usage allowance and a weekly usage limit across all models. Organizations can mix seat types. Official Claude Duet pages say Team and Enterprise plans are not included in the research preview yet.",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Duet plan exclusion from https://claude.com/product/claude-duet and https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
         },
         "overage": {
           "value": "Usage credits can be enabled after included limits, same as Standard seats.",
           "source": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Enterprise",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
-          "value": null,
-          "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: The pricing page directs Enterprise to contact sales; no public seat price was stated on the fetched page."
+          "value": 20,
+          "source": "https://claude.com/pricing",
+          "checked_on": "2026-11-23",
+          "note": "US$20 per seat per month, billed annually, with a 20-seat minimum, as stated on the pricing page. The card says seat price plus usage at API rates, and usage cost scales with model and task."
         },
         "billing_unit": {
-          "value": null,
-          "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: Not stated as a public self-serve unit on the fetched pricing page."
+          "value": "per seat per month, billed annually; 20-seat minimum on the pricing page",
+          "source": "https://claude.com/pricing",
+          "checked_on": "2026-11-23"
         },
         "currency": {
-          "value": "USD context on the consumer pricing page; Enterprise terms not published there",
+          "value": "USD; prices shown exclude applicable tax",
           "source": "https://claude.com/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Claude in Chrome and Cowork in the cloud require an owner to enable them on Enterprise. Computer use is in beta on Team and Enterprise once an owner turns it on, and is rolling out gradually. Custom connectors and admin site allowlists and blocklists are documented. Official Claude Duet pages say Team and Enterprise plans are not included in the research preview yet.",
           "source": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Duet plan exclusion from https://claude.com/product/claude-duet and https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
         },
         "overage": {
-          "value": null,
-          "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: Enterprise overage or credit rates were not published on the fetched consumer pricing page."
+          "value": "The seat price does not include usage. The pricing FAQ says Enterprise usage is billed at API rates and scales with the model and task. The Enterprise help article says the usage-based seat has no included token allowance and no per-seat usage limit, and that self-serve and sales-assisted plans use the same seat price. That article lists a 20-seat self-serve minimum and a 50-seat sales-assisted minimum. Itemized volume discounts are not published.",
+          "source": "https://claude.com/pricing",
+          "checked_on": "2026-11-23",
+          "note": "Seat-fee and minimum details also from https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan."
         }
       }
     ],
     "usage_limits": {
       "value": "Consumer plans use 5-hour and weekly usage limits: Free is limited; Pro is 1x; Max is 5x Pro every 5 hours and every week; Ultra has no 5-hour limit for verified accounts and 10x Pro usage every week. Team Standard seats: 1.25x Pro per-session allowance plus a weekly limit. Team Premium seats: 6.25x Pro per-session allowance plus a weekly limit. Limits are per member, not pooled. Multi-step Cowork tasks use more of the plan's usage than quick questions. Exact token or task counts for Chrome or computer-use sessions are not published as a fixed number on the pages fetched today. Claude Duet, during the research preview, uses the plan's usage limits, including any five-hour session limit and weekly limits, at the same rate as chats in Claude. Background work such as the morning brief and check-ins also counts, so limits may be reached sooner than with chat alone. Official help also adds full limit resets during the preview (Pro: three; Max and Ultra: one), each refilling both the five-hour session and weekly limits when used in Settings > Usage; unused limit resets expire on 15 December 2026.",
       "source": "https://claude.com/pricing",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Existing Cowork/Claude usage language keeps its original source on this field. Duet usage and limit-reset figures are from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
     },
     "accounts_apps": {
       "email": {
         "value": "Connectors let Claude access apps and services, retrieve data, and take actions. Official examples include Linear, Slack, and Google Drive, and the connectors help article points to Claude Docs setup pages for Gmail, Google Calendar, Google Drive, and Microsoft 365. Claude in Chrome has built-in knowledge for navigating Gmail, Google Calendar, Google Docs, Slack, and GitHub, with commands such as 'schedule a meeting' or 'update the doc'. Computer use prefers connectors first, such as Gmail, Google Drive, Microsoft 365, or Slack, when available. Claude Duet: official help says it can use connectors already set up in Claude, including Gmail; each morning it looks across email and calendar, can draft replies for review, and with approval can send emails from connected accounts. It does not send text messages to other people.",
         "source": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Duet email and calendar behavior from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet. Introducing Claude Duet also lists Gmail among Marketplace connectors: https://claude.com/resources/articles/claude-duet."
       },
       "calendar": {
         "value": "Google Calendar is listed among platforms Claude in Chrome has built-in navigation knowledge for, and among connector-specific docs (Gmail, Google Calendar, Microsoft 365). Computer use lists connectors such as Gmail, Google Drive, Microsoft 365, or Slack as the preferred path before browser or screen interaction. Claude Duet: official help says each morning it looks across email and calendar and picks what most needs attention, and lists Google Calendar and Calendly among connectors it can use.",
         "source": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Duet calendar behavior from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
       },
       "browser": {
         "value": "Claude in Chrome can read, click, type, navigate, and fill forms in the user's Chrome browser, from the side panel or when driven from Cowork, Claude Code, or Desktop. Cowork also has a browser built into the Claude Desktop app, which is rolling out; users choose Claude in Chrome or the built-in browser in Settings > Cowork > Preferred browser. The extension is not supported on other Chromium browsers or mobile devices. Claude Duet: for sites without a connector it uses its own browser in the cloud. During the research preview, official help says you cannot watch Claude Duet work in its browser or take over the browser. The safety article says the browser runs in a dedicated cloud virtual machine, separate from the model.",
         "source": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Duet browser limits from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet. VM isolation from https://claude.com/resources/articles/claude-duet-safety-privacy-and-security."
       },
       "files": {
         "value": "Cowork can produce formatted documents, organize files, and use project files. The Chrome side panel can use local files, the computer, or Claude driving Chrome from another surface when Claude Desktop is open and connected. Computer use can open files and use desktop apps. Image uploads and downloads are supported in Chrome workflows. Claude Duet: larger jobs can come back as files you can review and edit (official examples: a research brief, financial model, slide deck, or dashboard) in the Make tab. Official limitations: it cannot see all of your projects or the files on your computer, and it can read your work in Claude but cannot change it.",
         "source": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Duet file and local-disk limits from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
       },
       "messaging": {
         "value": "The official connector guide example is connecting Claude to Slack to send messages. Claude in Chrome includes built-in knowledge for navigating Slack. Claude Duet: official help lists Slack among connectors, with the limitation that some connectors such as Slack work with limits in Duet. It can message you in the Duet app (text or voice). It does not make phone calls or send text messages to other people; with approval it can send emails from connected accounts.",
         "source": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Duet Slack, email, and 'no phone or SMS to other people' limits from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
       },
       "payments": {
         "value": "Claude Duet: official help says it works with Link (Stripe's digital wallet) and Shop Pay (Shopify's wallet) for purchases you approve. Each purchase uses a one-time card that only works for that purchase; Claude Duet is designed to ask before each purchase. Link and Shop Pay are available only in Claude Duet for now and are connected in Claude Duet, not in the connectors directory. The safety article says you approve the purchase in your Link app and your real card number is not shared with Claude Duet or the merchant. 1Password sign-in is described as coming soon. Some actions stay off-limits even with approval, including trading securities and moving money between accounts. Cowork / Claude in Chrome / computer use: fetched official pages still do not clearly document a first-party payments integration for those surfaces; computer-use help says Claude is trained to avoid typing card numbers and to check before submitting forms.",
         "source": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Link one-time-card and real-card-number language also from https://claude.com/resources/articles/claude-duet-safety-privacy-and-security. Cowork/Chrome payments remain undocumented as a first-party integration."
       }
     },
     "schedule_or_away": {
       "value": "Claude in Chrome supports scheduled or recurring browser tasks (daily, weekly, monthly, or annually) via the clock icon, including scheduling shortcuts. Background workflows can keep working when the user switches tabs as long as Chrome is open, with notifications when permission is needed or a task completes. Cowork runs sessions remotely in the cloud so work continues when the user closes the laptop or steps away; scheduled tasks can complete work automatically. Computer use on a physical machine continues while the user steps away if the computer stays on. On macOS 15 or later, Claude can work in background windows without taking over the pointer or keyboard by default. Claude Duet: official pages say it works on its own computer in the cloud and can keep working after you close the app, and can run routines while you are away. It sends a morning brief and, through the day, updates on work in progress. Introducing Claude Duet says it checks connected accounts every few hours, because checking nonstop would use the plan's limits faster; the getting-started article says it checks at set intervals, so something urgent can arrive between checks.",
       "source": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Duet unattended and check-in language from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet, https://claude.com/resources/articles/claude-duet, and https://claude.com/resources/articles/claude-duet-safety-privacy-and-security."
     },
     "memory": {
       "value": "Cowork in the cloud shares the memory used in chat. By default Claude does not save topics some people consider sensitive, such as health information, unless Include sensitive topics in memory is turned on in Settings. Some information is never saved, including government ID numbers, criminal history, financial account numbers, and immigration status. Users can view, edit, and delete what Claude remembers. Consumer pricing also lists Memory as a feature on Free and paid plans. Projects can have their own files, links, instructions, and memory. Claude Duet uses your Claude account memory, skills, and connectors from the first message, and official memory help says it also uses and adds to that memory. It can search past Claude Duet chats and chats in Claude outside of projects unless you turn off Search and reference chats. Official safety article: it keeps conversation history and memory until you delete history or reset memory in the app's settings; disconnecting an app stops new access but what it already learned stays until you reset memory; deleting your account wipes everything Claude Duet has stored.",
       "source": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Duet memory, chat search, reset, and account-deletion behavior from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet, https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context, and https://claude.com/resources/articles/claude-duet-safety-privacy-and-security."
     },
     "approvals": {
       "value": "The Claude in Chrome side panel starts in Automatically approve mode: Claude works continuously, reviews each action for safety, and pauses to ask when something needs approval; the chosen mode is kept for future sessions. Computer use: users are asked to confirm the first time Claude asks to use an app; each app must be approved before Claude can use it; on macOS Claude asks permission the first time a task needs the full screen in each session. Claude is trained and instructed to check with the user about actions the request does not clearly cover, such as sending a message or submitting a form, and to avoid typing passwords and card numbers. 1Password for Claude, in beta on macOS, can fill credentials after biometric approval so Claude never sees the password or one-time code. Team and Enterprise admins can restrict sites and apps. Claude Duet: official help says it is designed to show you what it is about to do and wait for approval before sending a message, making a payment, signing a document, or deleting anything. If you cannot approve right away, it finishes the rest of the task and brings the approval back later. Some actions stay off-limits even with approval, such as trading securities, moving money between accounts, or accessing someone else's account. When a site asks for a password, you type it into a separate form on your device; the model is not supposed to see it. A separate automated check runs alongside each action.",
       "source": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Duet approval, off-limits actions, and isolated password form from https://support.claude.com/en/articles/17631495-get-started-with-claude-duet and https://claude.com/resources/articles/claude-duet-safety-privacy-and-security."
     },
     "where_it_runs": {
       "value": "Claude in Chrome runs in the user's Google Chrome browser on a computer, not on other Chromium browsers or mobile. Cowork sessions run remotely in the cloud and follow the Claude account across desktop, web, and mobile. Computer use runs on the user's Mac or Windows machine via Claude Desktop (macOS 14 or later required; background windows are the default on macOS 15 or later). Custom remote MCP connectors are reached from Anthropic's cloud infrastructure, not the local machine, even when using Cowork or Desktop. Claude Duet runs on its own cloud computer and, for browsing, a dedicated cloud virtual machine separate from the model. It does not require your laptop or phone to stay on. Official product and help pages: it is a standalone app on iOS and Android, and on the web at claude.ai.",
       "source": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Duet runtime and apps from https://claude.com/product/claude-duet, https://support.claude.com/en/articles/17631495-get-started-with-claude-duet, and https://claude.com/resources/articles/claude-duet-safety-privacy-and-security."
     },
     "privacy": {
       "training_on_your_data": {
         "value": "For consumer products (Free, Pro, Max, Ultra, and Claude Code with those accounts): users control whether chats or coding sessions are used to improve Claude via privacy and model-improvement settings. When allowed, Anthropic says data is de-linked from the user ID before review, access is limited, and data is not used to contact people, build profiles, market to them, or sold to third parties. Incognito chats are not used to improve Claude even if model improvement is enabled. If safety classifiers flag conversations, they may still be used to improve trust and safety models, detect harmful content, enforce policies, or advance safety research. Claude Duet official safety article focuses on discretion, approvals, and credential isolation; it does not state a separate training-opt-in rule for Duet beyond the consumer Claude settings already described.",
         "source": "https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "No additional Duet-specific model-training policy was found on https://claude.com/resources/articles/claude-duet-safety-privacy-and-security."
       },
       "retention": {
         "value": "A deleted Cowork task is removed from task history immediately and deleted from backend storage systems within 30 days, in accordance with Anthropic data retention periods. Broader account retention periods beyond Cowork task deletion were not fully specified on the pages fetched today. Claude Duet: official safety article says it keeps conversation history and memory until you delete your history or reset memory, and that deleting your account wipes everything Claude Duet has stored. A numeric backend retention window for Duet, comparable to the 30-day Cowork-task deletion period, was not stated on the pages fetched for this update.",
         "source": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Duet history, reset, and account-deletion language from https://claude.com/resources/articles/claude-duet-safety-privacy-and-security. The 30-day Cowork-task window remains from the original Cowork help source."
       }
     },
     "platforms": {
       "value": "Claude in Chrome: Google Chrome on a computer only. Cowork: Claude Desktop for macOS, Windows, and Linux (beta) on all paid plans; web and Claude Mobile on Pro, Max, Ultra, and Team (Team in beta), and Enterprise when an owner enables it; Chrome side panel on all paid plans (Enterprise requires admin enablement). Computer use: Claude Desktop for macOS and Windows on Pro, Max, and Ultra; Team and Enterprise in beta in the new Claude experience when enabled. Claude Duet: standalone iOS and Android app, and claude.ai on a computer. Official help: research preview for Pro, Max, and Ultra plans in the US, through a waitlist; invitations go out in waves; not available on Team or Enterprise yet.",
       "source": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Duet platforms and waitlist from https://claude.com/product/claude-duet and https://support.claude.com/en/articles/17631495-get-started-with-claude-duet."
     }
   },
@@ -791,156 +792,154 @@
     "name": {
       "value": "Tasks in Gemini (Gemini's personal task and agent mode)",
       "source": "https://support.google.com/gemini/answer/17094507",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Official current product phrasing is Tasks in Gemini. The 17 November 2026 Google blog tells users to flip the home-screen toggle from Chat to Task (https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/). The Tasks help FAQ says Spark was tested in beta from May and 'we renamed it Task'. Privacy Hub, last updated 19 November 2026, says 'Tasks in Gemini (formerly known as Spark)'. A previously advertised Labs feature called Gemini Agent was not confirmed as a still-separate product: fetching https://support.google.com/gemini/answer/16596215?hl=en on 20 November 2026 returned the current Tasks help article."
     },
     "aliases": [
       {
         "value": "Tasks in Gemini (current official product phrasing)",
         "source": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       {
         "value": "Task (current official home-screen toggle name, next to Chat)",
         "source": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Also described in the Tasks help FAQ at https://support.google.com/gemini/answer/17094507: 'You can find it in the Chat and Task toggle next to the prompt text box.'"
       },
       {
         "value": "Spark / Gemini Spark (former official name)",
         "source": "https://support.google.com/gemini/answer/13594961?hl=en",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Privacy Hub: 'Tasks in Gemini (formerly known as Spark).' Help FAQ on https://support.google.com/gemini/answer/17094507: 'we renamed it Task.' Gemini Spark was introduced on 19 May 2026 at https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/."
       },
       {
         "value": "Gemini Agent (former Labs help title; the old help ID now serves the Tasks in Gemini article)",
         "source": "https://support.google.com/gemini/answer/16596215?hl=en",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Fetched with hl=en on 20 November 2026; the page content is the current 'Manage your tasks & workflows in Gemini Apps' article, not a separate Agent product."
       }
     ],
     "vendor": {
       "value": "Google",
       "source": "https://gemini.google/subscriptions/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "homepage": {
       "value": "https://gemini.google/",
       "source": "https://gemini.google/overview/productivity/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "type": {
       "value": "Cloud autonomous agent (remote browser and computer) that can also use local Chrome on desktop and connected apps",
       "source": "https://support.google.com/gemini/answer/17094507",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "plans": [
       {
         "name": {
           "value": "Free (Google Account / Gemini Apps without a Google AI subscription)",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 0,
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$0/month with a Google Account."
         },
         "billing_unit": {
           "value": "per month (no charge)",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD as shown on the US subscriptions page",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Tasks in Gemini are available without a Google AI subscription in Australia, Canada, India, Japan, South Korea, and the US for users 18+ with a personal Google Account and History on. The official blog dated November 17, 2026 says the update is rolling out free of charge in the U.S., Japan, Korea, Canada, Australia, and India, using Gemini 4 Hydrogen. The product page says it is free of charge for 18+ users in those countries, and for Pro/Ultra users in select countries.",
           "source": "https://support.google.com/gemini/answer/17094507",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Gemini Apps have compute-based usage limits. Users can extend limits by purchasing AI credits, per the subscriptions page footnote. Credit-pack prices were not listed on the fetched subscriptions page.",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Google AI Plus",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
-          "value": null,
-          "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: The fetched US subscriptions page lists Google AI Plus features, including Gemini in Chrome / Chrome auto browse, but did not expose a dollar price in the extracted text."
+          "value": 4.99,
+          "source": "https://gemini.google/subscriptions/",
+          "checked_on": "2026-11-23",
+          "note": "US subscriptions page, Personal tab, United States: $4.99/month. The same page shows a Black Friday banner, 'Save up to 50% on select Google AI plans,' without replacing this card price."
         },
         "billing_unit": {
           "value": "monthly subscription; the page states cancel anytime",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
-          "value": null,
-          "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: A dollar price was not visible in the fetched subscriptions text for Plus."
+          "value": "USD as shown on the US subscriptions page",
+          "source": "https://gemini.google/subscriptions/",
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Everything in Free, plus double the usage limits versus Free, Gemini in Chrome (Chrome auto browse to help complete tasks; a footnote says Chrome auto browse is available in the US and India), 400 GB cloud storage, and other Google AI Plus benefits listed on the subscriptions page.",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Usage limits can be extended by purchasing AI credits (footnote 1 on the subscriptions page).",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Google AI Pro",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
-          "value": null,
-          "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: The fetched US subscriptions page lists Google AI Pro features and four-times-higher usage limits versus Free, but did not expose a Pro dollar price in the extracted text."
+          "value": 19.99,
+          "source": "https://gemini.google/subscriptions/",
+          "checked_on": "2026-11-23",
+          "note": "US subscriptions page, Personal tab, United States: $19.99/month, with four times higher usage limits than Free. The same page shows a Black Friday banner, 'Save up to 50% on select Google AI plans,' without replacing this card price."
         },
         "billing_unit": {
           "value": "monthly subscription; cancel anytime is stated",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
-          "value": null,
-          "source": null,
-          "checked_on": "2026-11-20",
-          "note": "unverified: A dollar price was not visible in the fetched subscriptions text for Pro."
+          "value": "USD as shown on the US subscriptions page",
+          "source": "https://gemini.google/subscriptions/",
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Tasks in Gemini are available with a Google AI Pro or Ultra subscription everywhere else Gemini Apps are supported, except in the European Economic Area, Nigeria, Switzerland, and the United Kingdom. Pro includes four times higher usage limits than Free, Gemini in Chrome, and other listed benefits. Help requires users to be 18+, signed in with a personal (not work or school) Google Account, and have History on.",
           "source": "https://support.google.com/gemini/answer/17094507",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Usage limits can be extended by purchasing AI credits.",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Google AI Ultra (5x and 20x tiers)",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -948,104 +947,104 @@
             "ultra_20x": 199.99
           },
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$99.99/month: 5x higher usage limits versus AI Pro. $199.99/month: 20x higher usage limits versus AI Pro."
         },
         "billing_unit": {
           "value": "per month",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD as shown on the US subscriptions page",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Everything in Google AI Pro plus highest model access and up to 20x higher usage limits in Gemini than the Pro plan, plus first access to advanced features like Tasks in Gemini in select countries, as listed on the Ultra card.",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Usage limits refresh every 5 hours until a weekly limit; limits can be extended by purchasing AI credits.",
           "source": "https://gemini.google/subscriptions/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       }
     ],
     "usage_limits": {
       "value": "Gemini Apps have compute-based usage limits that increase with higher Google AI subscriptions. How much of a limit a task uses depends on prompt complexity, features, and chat length. Limits refresh every 5 hours until a weekly limit is reached, per the subscriptions footnote. Users can have up to 15 tasks running at a given time; a schedule will not run if 15 tasks are already running. Numeric per-task credit costs were not published on the pages fetched today.",
       "source": "https://support.google.com/gemini/answer/17094507",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "accounts_apps": {
       "email": {
         "value": "Tasks can connect natively with Gmail (connections are off by default). Documented Gmail actions include searching and summarizing emails, composing drafts, forwarding, replying, and organizing with labels. Official examples include decluttering an inbox, unsubscribing, and forwarding emails to gemini@google.com, which the blog describes as starting in the U.S. The product page says Gemini does not read emails indiscriminately; it works under the user's direction.",
         "source": "https://gemini.google/overview/productivity/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "calendar": {
         "value": "Native Google Calendar connection. Documented actions include checking the calendar, RSVPing, scheduling events, rescheduling, changing locations, or canceling events, plus smart scheduling to suggest open slots. The blog example includes booking a service appointment into Google Calendar.",
         "source": "https://support.google.com/gemini/answer/17094507",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "browser": {
         "value": "Gemini can use the local Chrome browser on desktop (Chrome auto browse; a subscriptions footnote says this is available in the US and India) or a separate remote browser in the cloud. Local Chrome requires the device and Chrome to stay awake; if the device is closed or unavailable, Gemini might use a remote browser. On mobile, only the remote browser is used for this. Users can view the live remote browser, take control, or stop browsing.",
         "source": "https://support.google.com/gemini/answer/17094507",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "files": {
         "value": "Native connections to Drive, Docs, Sheets, and Slides. Gemini can search and manage Drive files, including rename or delete, and can write and edit Docs, Sheets, and Slides. Editing shared documents, spreadsheets, and presentations requires the user to review and confirm planned edits. Tasks can package research into downloadable PDFs, documents, spreadsheets, and presentations.",
         "source": "https://support.google.com/gemini/answer/17094507",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "messaging": {
         "value": "The official blog says that, starting in the U.S., users can text Gemini after setting up Text with Gemini in Settings > Channels and verifying a phone number (RCS integration; a US phone number with an eligible mobile carrier is required). Product and help pages also list 50+ / more than 60 third-party connected apps, such as OpenTable and Instacart.",
         "source": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "payments": {
         "value": "Tasks can involve shopping, booking travel, or reservations. The official blog says Gemini uses the Agent Payments Protocol (AP2) for purchases; it is working with Mastercard and Visa, with American Express coming soon; users can set a hard spending cap; receipts and tracking go to Google Wallet, which the blog says is expanding to iOS as of that date. Gemini is designed to ask for confirmation or pre-approval before clicking Buy. Help lists Google Pay and Google Wallet among related capabilities, and says Gemini may ask the user to take control to enter payment details. Official help says not to enter payment details directly in the task thread.",
         "source": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     },
     "schedule_or_away": {
       "value": "Users can assign tasks and manage schedules for ongoing tasks, including time-based or event-based or conditional triggers. Remote-browser tasks continue even if the user closes the device. If a schedule runs while the user is offline, they may not be able to stop an unintended action. In the section on deleting remote data or turning off task mode, help text says schedules will not run if task mode is off or the device is off. Official examples include a daily morning briefing across email and calendar. The Gemini app on Mac can be asked to take action on the Mac from another device if tasks are set up.",
       "source": "https://support.google.com/gemini/answer/17094507",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "memory": {
       "value": "Tasks can use Personal Intelligence, chats, Connected Apps, skills, location, and websites the user is signed into. The Gemini Apps Privacy Hub describes Memory and Personal Intelligence personalization settings, a Memory summary setting, and the ability to manage info the user asked Gemini to save. History (Keep Activity / History on) is required to assign tasks.",
       "source": "https://support.google.com/gemini/answer/13594961",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "approvals": {
       "value": "Gemini is designed to pause and check before critical steps, including confirmation or pre-approval before clicking Buy; routine trusted actions can be set to Always allow. After an initial web-browsing permission, for every task that involves web browsing, Gemini will ask for confirmation first, per help. Very sensitive actions require permission each time even if preferences are updated. Built-in safety checks can still pause and ask even when an action or browser permission is set to Always allow. Gemini may ask the user to take control to enter passwords or payment details. Sign-in uses confirmation for Sign in with Google or Password Manager credentials. Shared Doc, Sheet, or Slide edits require review and confirmation. An exception is stated: Gemini can perform bulk actions on private tasks in Google Tasks without confirmation. The blog says businesses are told Gemini is AI when it places calls, and that Gemini will not give out payment or private account info unless the user says so. Calling through Gemini is not currently available in Indiana, Louisiana, Minnesota, Montana, and Nebraska.",
       "source": "https://support.google.com/gemini/answer/17094507",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "where_it_runs": {
       "value": "The official blog says that when a task is assigned, Gemini uses Google Cloud's Agent Compute Engine to work in a hardware-isolated virtual machine dedicated to the user's account and never shared with other users; each VM is sandboxed. Help says tasks can also use local Chrome on desktop or a remote browser on a remote computer. Remote browser and computer data, including auth cookies, is saved for convenience until inactivity or manual delete. Platforms for assigning tasks are the Gemini mobile app, the Gemini app on Mac, and gemini.google.com.",
       "source": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "privacy": {
       "training_on_your_data": {
         "value": "Gemini Apps Privacy Hub (notice updated November 16, 2026; hub updated November 19, 2026): users can control in Gemini History whether chat content, including text and attachments, is used to train generative AI models. The hub states Google uses the content of future chats to train generative AI models unless the user changes that setting. If the setting is off, future chats will not be used to train generative AI models unless the user provides feedback, but chats may still be reviewed and used to improve Google services in other ways and to protect Google, users, and the public. Temporary chats are not used to train Google's AI models. If History is off and the user does not submit feedback, Google also does not use future chats to train generative AI models. Human reviewers, including service-provider reviewers, review some collected data. Settings do not stop processing chats to create anonymized data to improve Google services. Remote browser and remote computer data is used consistently with the Privacy Notice and is not deleted by deleting Gemini history.",
         "source": "https://support.google.com/gemini/answer/13594961",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "retention": {
         "value": "Auto-delete in Gemini History defaults to 18 months and can be changed to 3 months, 36 months, or indefinite; chats can be deleted manually anytime. Chats reviewed by service providers are separated from the account and kept for up to 3 years. Remote browser and remote computer data remains until a period of inactivity or until the user manually clears it; deleting Gemini history does not delete that data. Turning off task mode pauses schedules and tasks but does not delete past history, threads, or files Gemini updated.",
         "source": "https://support.google.com/gemini/answer/13594961",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     },
     "platforms": {
       "value": "Tasks in Gemini: Gemini mobile app, Gemini app on Mac, and the Gemini web app at gemini.google.com. Personal Google Account only for now, not work or school. Age 18+. Availability without a paid subscription in Australia, Canada, India, Japan, South Korea, and the US; with Pro or Ultra in other supported countries except the EEA, Nigeria, Switzerland, and the UK. Text-with-Gemini and email forwarding are described as starting in the U.S. Chrome auto browse: US and India, per the subscriptions footnote.",
       "source": "https://support.google.com/gemini/answer/17094507",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     }
   },
   {
@@ -1053,81 +1052,81 @@
     "name": {
       "value": "Grok Bot",
       "source": "https://x.ai/bot",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "aliases": [
       {
         "value": "Grok Bot (current official product name)",
         "source": "https://x.ai/bot",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       {
         "value": "Bots (official name for the individual teammates inside Grok Bot)",
         "source": "https://docs.x.ai/grok-bot/get-started",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Get-started docs, last updated 13 November 2026: 'Grok Bot gives you Bots that do work for you on a cloud computer they share.'"
       },
       {
         "value": "Grok, the chat app (not an alias: official FAQ says Grok Bot is not the same as the Grok app)",
         "source": "https://docs.x.ai/grok-bot/faq",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Included so the two official products are not confused. Do not treat 'Grok' as the current name of Grok Bot."
       }
     ],
     "vendor": {
       "value": "xAI / SpaceXSI (sold as part of The X Subscription through X Subscription Corp.)",
       "source": "https://x.ai/pricing",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "homepage": {
       "value": "https://x.ai/bot",
       "source": "https://x.ai/bot",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "type": {
       "value": "Cloud autonomous agent (each Bot uses a persistent cloud computer) with desktop and mobile apps; also works in Slack",
       "source": "https://x.ai/bot",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "plans": [
       {
         "name": {
           "value": "Free",
           "source": "https://x.ai/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 0,
           "source": "https://x.ai/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$0/month, limited AI usage."
         },
         "billing_unit": {
           "value": "per month",
           "source": "https://x.ai/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD; prices exclude applicable taxes or fees",
           "source": "https://x.ai/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Limited Chat requests and limited agent requests. Official docs: Grok Bot is not included on Free or Plus; it starts at Premium.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "If included usage is reached, users can keep going with top-ups or wait for the weekly refresh. The pricing-page FAQ describes the shared pool, which covers Bot only on plans that include it.",
           "source": "https://x.ai/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Plus",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -1135,35 +1134,35 @@
             "annual": 80
           },
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$8/mo or $80/yr ($7/mo)."
         },
         "billing_unit": {
           "value": "per month or per year",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD; list prices do not include sales tax",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Base included usage. Grok Chat, Voice, Imagine, and Build; Grok API access; Cursor. Plus does not include Grok Bot.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Top-ups buy Additional Usage credits for usage beyond what is included.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Premium (includes Grok Bot)",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -1171,35 +1170,35 @@
             "annual": 300
           },
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$30/mo or $300/yr ($25/mo). Teams: $30 per seat."
         },
         "billing_unit": {
           "value": "per month or per year; Teams priced per seat at the same tier prices",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "4x included usage versus Plus, in a shared weekly pool. Grok Bot is included on Premium, Super, and Ultra for an individual or a team seat. Bot usage draws from that seat's shared weekly usage pool across Grok, Grok Bot, and Cursor, not a separate additive pool.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Top-ups buy Additional Usage credits. Third-party models in Cursor are not part of included usage and use these credits from first use.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Super (includes Grok Bot)",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -1207,35 +1206,35 @@
             "annual": 1000
           },
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$100/mo or $1000/yr ($84/mo). Teams: $100 per seat."
         },
         "billing_unit": {
           "value": "per month or per year; Teams per seat",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "15x included usage versus Plus. Larger shared weekly allowance for Grok Bot.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Top-ups for Additional Usage credits after the weekly pool.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Ultra (includes Grok Bot)",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": {
@@ -1243,61 +1242,62 @@
             "annual": 2000
           },
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "$200/mo or $2000/yr ($167/mo). Teams: $200 per seat."
         },
         "billing_unit": {
           "value": "per month or per year; Teams per seat",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "50x included usage versus Plus. Earliest-access language appears on the marketing pricing page.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23",
+          "note": "unverified: the 50x figure is on https://docs.x.ai/x-subscription/pricing and on https://x.ai/pricing. The 23 November 2026 fetch of https://x.ai/pricing does not include earliest-access wording on the Ultra card."
         },
         "overage": {
           "value": "Top-ups for Additional Usage credits after the weekly pool.",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Enterprise and legacy access paths",
           "source": "https://docs.x.ai/grok-bot/get-started",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": null,
           "source": null,
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "unverified: Enterprise is custom (contact sales / sales@x.ai). Legacy Cursor paid individual plans, self-serve Cursor Teams, SuperGrok, SuperGrok Plus, SuperGrok Heavy, X Premium+, and self-serve Grok Business seats are described as alternative access paths. Current prices for those legacy plans were not re-fetched as a complete table today."
         },
         "billing_unit": {
           "value": "Enterprise custom; Teams seats on The X Subscription as above",
           "source": "https://x.ai/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://docs.x.ai/x-subscription/pricing",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Grok Bot is generally available for Enterprise and for teams on the Teams plan. Switching to The X Subscription is optional for existing Cursor, SuperGrok, and X Premium customers.",
           "source": "https://x.ai/bot",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": null,
           "source": null,
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "unverified: Enterprise overage terms were not published on the fetched self-serve pages."
         }
       }
@@ -1305,76 +1305,76 @@
     "usage_limits": {
       "value": "Every paid tier includes a pool of AI usage shared across Grok and Cursor. Within Grok, the pool covers Chat, Imagine, Voice, and Bot on plans that include Bot. The allowance refreshes weekly. Higher tiers include larger pools (Plus base, Premium 4x, Super 15x, Ultra 50x). Usage costs vary by product. Remaining usage is shown in settings; after the pool, users can buy top-ups. Absolute token or hour quotas for the base pool are not published as a single number on the pages fetched today.",
       "source": "https://x.ai/pricing",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "accounts_apps": {
       "email": {
         "value": "Users can connect apps such as Gmail. A first-party Bot email address is documented: when the user asks for an email in chat, it goes out once Auto Review allows it; email from a routine, an incoming message, or other work the user did not start with that request waits as a draft until the user presses Send; a forward, or an email with an attachment Auto Review cannot fully read, always waits for approval. If Gmail or Outlook is also connected, the Bot asks which account to send from. The starter Bot Tradbot watches personal email and calendar, drafts replies, and never sends without the user. One-time codes emailed to a site can be read from connected Gmail or Outlook or from the Bot's own inbox.",
         "source": "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "calendar": {
         "value": "The Tradbot starter Bot watches your personal email and calendar so school forms, bills, and RSVPs do not slip. Google Calendar and Outlook Calendar connections are discussed in the computer-and-apps docs, including Microsoft 365 admin approval for Outlook Calendar. A complete numbered list of calendar write APIs was not fully extracted from the truncated computer-and-apps page, but calendar use is officially described.",
         "source": "https://docs.x.ai/grok-bot/get-started",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "browser": {
         "value": "Every Bot has its own computer with a browser, command line, and filesystem. Bots can sign into apps and websites and use them as the user would. Browser cookies and signed-in sessions persist and are shared across all Bots on the account. Users can watch clicks and typing, or take control for SSO, passkeys, CAPTCHAs, and similar steps.",
         "source": "https://docs.x.ai/grok-bot/computer-and-apps",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "files": {
         "value": "The cloud computer has a filesystem; files are visible to every Bot on the account. Bots can run commands on the user's local Mac or Windows computer only if that capability is enabled (default: Ask every time). Sensitive project files are described as living under /workspace on the cloud computer.",
         "source": "https://docs.x.ai/grok-bot/computer-and-apps",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "messaging": {
         "value": "Bots work in Slack like a teammate: users can ask questions, hand off work, or loop a Bot into a thread. Docs also describe X Chat. Users can connect Slack as an app. A Bot can be invited to Google Meet or Zoom: it listens, jumps into chat when it can help, and follows through after.",
         "source": "https://x.ai/bot",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "payments": {
         "value": "At checkout, a Bot can use a card saved in Vault, a card entered in a Secure Form, or a connected wallet such as Link, X Money, or Shop Pay (see Pay for things, referenced from the computer-and-apps page). A card saved in Vault fills in at checkout without a separate approval each time; to approve every payment, the docs say not to save the card. Purchases and financial transfers are listed as actions that should have explicit approval boundaries. In Grok Bot app chats, a Bot can see the number and security code of a card saved in Vault so it can type them at checkout.",
         "source": "https://docs.x.ai/grok-bot/computer-and-apps",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     },
     "schedule_or_away": {
       "value": "Work continues on the cloud computer while the laptop is closed, 24/7, even when the Grok Bot app is closed. Getting-started docs: after a task is right, ask the Bot to do it on a schedule and it becomes a routine. Mobile apps can pause or resume routines. Approval cards raised by a routine or incoming message expire after 30 minutes if unanswered.",
       "source": "https://docs.x.ai/grok-bot/computer-and-apps",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "memory": {
       "value": "Marketing and getting-started docs: Bots keep context from conversations, learn how the team works, and can be asked to remember how the work should be done. Saved to memory is shown as a product behavior. A Bot with one job builds more useful context than a catch-all helper.",
       "source": "https://x.ai/bot",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "approvals": {
       "value": "Auto Review is on by default. It checks actions before a Bot runs a command, uses a connected app, or uses its computer. Most actions run on their own, but when one needs approval the Bot shows an approval card (Allow once, Always allow, Deny). Custom Rules: up to 20 Allow automatically and 20 Ask first rules; Ask first wins if both match. Built-in safety checks always apply. Team admins can require Auto Review and lock rules. Email sending rules are as described under email. Passwords are filled via Vault, a password manager such as 1Password, or a Secure Form without being shown to the model. Official docs say not to put passwords or payment details in ordinary chat. Local-computer execution defaults to Ask every time.",
       "source": "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "where_it_runs": {
       "value": "Bots share one persistent cloud computer assigned to the user account, with a browser, command line, and filesystem. Each user's computer is dedicated and hardware-isolated. Each Bot gets its own screen on that shared computer and can work in parallel. Optional execution on the user's local Mac or Windows computer is separate and defaults to Ask every time. Optional use of apps on the user's phone is mentioned, and team caps apply. Grok Bot needs cloud data storage and does not support Legacy Privacy Mode.",
       "source": "https://docs.x.ai/grok-bot/computer-and-apps",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "privacy": {
       "training_on_your_data": {
         "value": "The x.ai/bot FAQ says Grok Bot uses the same Cursor SSO, auth, and privacy mode; the cloud computer is encrypted in transit and at rest, with training opt-out. Docs say training opt-out follows the applicable Cursor account and privacy settings, and tell users to review the Cursor Privacy Policy and security information for contractual details. Privacy and data-sharing choices are managed through Cursor account settings and, when required, the Grok Bot access flow.",
         "source": "https://x.ai/bot",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "retention": {
         "value": "Deleting a Bot does not remove shared-computer files or browser sessions. Backend retention and account deletion follow the applicable Cursor terms. Users are instructed to sign out of websites, uninstall connectors, and remove sensitive files when access should end. A more specific retention period in days was not stated on the pages fetched today.",
         "source": "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     },
     "platforms": {
       "value": "Desktop app: macOS (Apple silicon and Intel), Windows (x64 and Arm64), and Linux (x64 and Arm64). Mobile: the iPhone app needs iOS 18 or later; the Android app needs Android 9 or later; both reach the same Bots, conversations, routines, and cloud computer. Also works in Slack. Enterprise and Teams are available. Download from x.ai/bot, the App Store, or Google Play.",
       "source": "https://docs.x.ai/grok-bot/get-started",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     }
   },
   {
@@ -1382,212 +1382,212 @@
     "name": {
       "value": "Muse (Meta's personal AI agent)",
       "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Official Meta pages describe Muse, not the general Meta AI chatbot, as the personal agent that connects to email and calendar, sends email with approval, and can browse and make purchases. See UNVERIFIED.md for the Meta AI versus Muse note and why Microsoft Copilot was not added as an alternate."
     },
     "aliases": [
       {
         "value": "Muse (current official product name)",
         "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       {
         "value": "Muse from Meta / your personal AI agent (official description, not a second product name)",
         "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-23",
         "note": "Getting-started help uses the same description: https://www.meta.com/help/superintelligence/1331373868832401/. The page title at https://ai.meta.com/muse/ is 'Muse: Meta's personal AI agent, features & capabilities.'"
       }
     ],
     "vendor": {
       "value": "Meta",
       "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "homepage": {
       "value": "https://muse.ai/",
       "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-      "checked_on": "2026-11-20",
+      "checked_on": "2026-11-23",
       "note": "Subscriptions are available at muse.ai and through the mobile app. ai.meta.com/muse/ exists as a marketing URL but returned no extractable body when fetched today."
     },
     "type": {
       "value": "Cloud autonomous agent running on an isolated virtual machine, with a built-in web browser, an optional Chrome extension that uses the user's Chrome, and optional device connections including Muse for Mac",
       "source": "https://muse.ai/privacy",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "plans": [
       {
         "name": {
           "value": "Free",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 0,
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Muse is available for free with a usage limit."
         },
         "billing_unit": {
           "value": "free usage limit that refreshes; the numeric period and token amount are not stated on the subscriptions article",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD for paid plans on the same page; Free is $0",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "Free access with a usage limit. If the free limit is reached, the user can upgrade, buy additional tokens, or wait until the free limit refreshes. Benefits and availability may vary by region and account. Muse and subscriptions are in limited testing and are not available in all locations yet.",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "After the free weekly usage limit, users can subscribe or make a one-time purchase of additional Muse tokens, or wait for the refresh. Purchased additional tokens never expire; they have no cash value and cannot be transferred. The exact free-limit token count and token-pack prices were not stated as numbers on the fetched subscriptions article. The additional-tokens article explains the mechanism but did not list pack prices in the extracted text.",
           "source": "https://www.meta.com/help/subscriptions/28153473374286914/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Power",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 20,
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Power plan ($20/month)."
         },
         "billing_unit": {
           "value": "per month; renews automatically each month unless canceled; charged on the same date as the original purchase",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "500 million Muse tokens per week and 10 phone calls per day. Weekly usage allowance increases as plans upgrade. Subscribers must be 18 or the age of majority, in a country where Muse is available, and logged in with a Meta account.",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Subscribers can buy additional Muse tokens on top of the plan's weekly allowance. Unused weekly subscription usage does not roll over. Additional purchased tokens never expire.",
           "source": "https://www.meta.com/help/subscriptions/28153473374286914/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       },
       {
         "name": {
           "value": "Maximum",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "price": {
           "value": 100,
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20",
+          "checked_on": "2026-11-23",
           "note": "Maximum plan ($100/month)."
         },
         "billing_unit": {
           "value": "per month; auto-renews until canceled",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "currency": {
           "value": "USD",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "included": {
           "value": "3 billion Muse tokens per week and 20 phone calls per day.",
           "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         },
         "overage": {
           "value": "Additional Muse tokens can be purchased. Weekly unused subscription usage does not roll over. Additional purchased tokens never expire.",
           "source": "https://www.meta.com/help/subscriptions/28153473374286914/",
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-23"
         }
       }
     ],
     "usage_limits": {
       "value": "The Free plan has a usage limit that refreshes. The subscriptions article does not state the numeric free token amount. Power: 500 million Muse tokens per week and 10 phone calls per day. Maximum: 3 billion Muse tokens per week and 20 phone calls per day. Different requests, models, tools, context lengths, and outputs may consume different amounts of tokens. Availability and benefits may vary by region and account.",
       "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "accounts_apps": {
       "email": {
         "value": "Connectors can include email (example: Connect my Gmail). Connecting email may allow Muse to read new emails to help keep up with what is important; Muse will not download the whole inbox unless asked; users can manage whether Muse can read new emails in Settings. By default Muse will not take many important actions, like sending an email, without approval. Muse can also have its own @muse.ai email address, separate from the personal inbox; sending from that address requires approval. Users can verify an email address they own so instructions forwarded to Muse are recognized, which does not by itself grant inbox access. Muse may refuse sensitive email requests about financial information, health information, and credentials.",
         "source": "https://www.meta.com/help/superintelligence/1687253048996149/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "calendar": {
         "value": "Connectors can give Muse the ability to see a calendar. Calendar connectors can update Muse automatically when the schedule changes. Connectors can be limited so Muse can retrieve data but not take actions like sending a calendar invite, depending on settings.",
         "source": "https://www.meta.com/help/superintelligence/1687253048996149/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "browser": {
         "value": "A web browser inside the Muse chat can be controlled by the user or Muse, similarly to Chrome or Safari. Documented tasks include booking appointments, making purchases, filling out online forms, and watching for things like price drops. An optional Muse Chrome Extension puts Muse in Chrome's side panel and browses using the user's personal Chrome, only in Muse's tab group. When using the user's Chrome, Muse cannot see saved passwords, browsing history, or Chrome settings; it can use sites the user is already logged into.",
         "source": "https://www.meta.com/help/superintelligence/2124746764949121/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "files": {
         "value": "The privacy policy says users can upload, store, or create files with Muse, including Artifacts and system files such as MEMORY.md, on the virtual machine. Users can delete files in the virtual machine.",
         "source": "https://muse.ai/privacy",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "messaging": {
         "value": "Facebook, Instagram, and Threads are Meta Connectors connected automatically if accounts are in the same Accounts Center. The privacy policy allows adding Muse to the same account as Facebook, Instagram, Threads, or WhatsApp; if Muse is added to a different account, Muse will not share Muse interactions or VM data with those Products. Custom connectors can be created for services not in the list.",
         "source": "https://www.meta.com/help/superintelligence/1687253048996149/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "payments": {
         "value": "The in-chat browser can make purchases on the user's behalf. Muse is designed to ask for confirmation before important browser actions like making a purchase. Credentials are stored in a Secure Credentials Store so the model does not see passwords.",
         "source": "https://www.meta.com/help/superintelligence/2124746764949121/",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     },
     "schedule_or_away": {
       "value": "The Muse Privacy Policy lists scheduled tasks among stored information, along with saved preferences, goals, and memories, which confirms that scheduled tasks exist. Calendar connectors can update Muse automatically when the schedule changes, and email connectors may share new mail proactively. Detailed official documentation of unattended execution, for example whether work continues if the app is closed, was not fetched as a dedicated help article today.",
       "source": "https://muse.ai/privacy",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "memory": {
       "value": "Muse keeps information on the user's isolated virtual machine. Users can ask Muse to forget interactions or use a Forget skill for topics or people; Muse forgets to the best of its ability. Users can ask what Muse remembers or view files like MEMORY.md. After deleting a message or file, Muse may still remember information it learned unless the user uses Forget. Resetting Muse deletes all Muse data. Information previously used with a disconnected connector may remain in memories and conversation history.",
       "source": "https://muse.ai/privacy",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "approvals": {
       "value": "By default, Muse will not take many important actions, like sending an email, without approval. Many connectors can be set to retrieve-only, for example with no sending of a calendar invite. Users can change when Muse asks for approval in Settings. Muse is designed to ask before important browser actions such as making a purchase; users can review, allow, or deny, take control of the browser, or stop the task. Web access default settings live under Permissions in Settings. Approval checks for important actions are described as enforced outside the AI model. Muse may ask for extra confirmation on sensitive topics over email.",
       "source": "https://www.meta.com/help/superintelligence/1687253048996149/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "where_it_runs": {
       "value": "Muse runs on a cloud virtual machine isolated so no one else's agent can access it; Muse also maintains backups. A built-in web browser runs in that environment. The Chrome extension runs in the user's Chrome, in the Muse tab group only. Devices can include a laptop with Muse for Mac, AI Glasses, and Muse Charm where available. A future Muse Confidential virtual machine is described as in design to keep information private even from Meta. It is not described as self-hosted.",
       "source": "https://muse.ai/privacy",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     },
     "privacy": {
       "training_on_your_data": {
         "value": "The Muse Privacy Policy, effective November 16, 2026, supplements the Meta Privacy Policy and takes precedence if they conflict. Users decide whether interactions with Muse can be used to train and improve Meta AI models. This setting is on when the user first uses Muse and can be changed anytime under Settings > Data controls. When off, interactions are not used for future development and improvement, and the change also applies to previous interactions. If training is allowed, Meta says it still removes certain categories of personally identifiable information, such as names, email addresses, phone numbers, and Social Security Numbers, and disassociates interactions from the account. The same toggle covers information from Connectors and Devices and communications Muse has with other people on the user's behalf. Muse does not share conversations or VM data with Meta ad systems, even if Accounts Center includes other Meta Products. If Muse is in the same Accounts Center as other Products, Meta may otherwise combine and use information across profiles and devices except where this policy says data will not be used.",
         "source": "https://muse.ai/privacy",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       },
       "retention": {
         "value": "Users can delete messages, Side Chats, and VM files, or reset Muse to delete all Muse data. After deletion, memories may remain until the Forget skill is used. Disconnecting a connector stops future data exchange, but previously used information may remain in memories and history. A numeric server-side retention period after account deletion was not stated on the pages fetched today.",
         "source": "https://muse.ai/privacy",
-        "checked_on": "2026-11-20"
+        "checked_on": "2026-11-23"
       }
     },
     "platforms": {
       "value": "Web at muse.ai and a mobile app (subscribe and report-issue flows are documented for both). Muse Chrome Extension in Google Chrome. Muse for Mac is mentioned as a device connector. Meta Wearable Products / AI Glasses and Muse Charm, if available in the location, can access Muse. Subscribers must be 18 or the age of majority. Limited testing; not available in all locations yet.",
       "source": "https://www.meta.com/help/subscriptions/1021145227643680/",
-      "checked_on": "2026-11-20"
+      "checked_on": "2026-11-23"
     }
   }
 ]
