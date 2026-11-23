@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-23",
+    "summary": "Claude's pricing page lists Enterprise at US$20 per seat per month, billed annually, with a 20-seat minimum. Usage is not included in the seat price and is billed at API rates.",
+    "links": [
+      {
+        "label": "Plans & pricing",
+        "url": "https://claude.com/pricing"
+      },
+      {
+        "label": "What is the Enterprise plan?",
+        "url": "https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "summary": "ChatGPT Work and Codex help states GPT-6.2 Ultrafast billing: on Pro 500, included allowance draws down at 6x Standard and purchased credits are a promotional 3x Standard rate through 28 February 2027. Pro 200 includes GPT-6.2 Sol Ultrafast in Codex on those rates. GPT-6 Astra and GPT-6.1 Sol stay at 8x included and 6x on credits.",
+    "links": [
+      {
+        "label": "ChatGPT Work and Codex",
+        "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "summary": "OpenAI help says that starting in December, Plus, Pro, and Business usage will be one shared token allowance across ChatGPT and Codex. Instant chat will not draw from that usage.",
+    "links": [
+      {
+        "label": "Understanding ChatGPT and Codex usage limits",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "summary": "ChatGPT release notes: ChatGPT Space is rolling out to Plus users ages 18 and older. Space replaces Library for pages, slides, images, and uploaded files, and a dot can be invited into a shared page.",
+    "links": [
+      {
+        "label": "ChatGPT release notes",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "summary": "site launched with 5 agents",
     "links": []
