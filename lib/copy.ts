@@ -1,4 +1,5 @@
 import { displayName, isFact } from "./data";
+import { SITE_NAME } from "./site";
 import type { Agent } from "./types";
 
 export function homeIntro(list: Agent[]): string {
@@ -15,7 +16,7 @@ export function homeIntro(list: Agent[]): string {
       else sourced += 1;
     }
   }
-  return `agent compare lists ${list.length} personal ai agents: ${names}. on the openai and anthropic rows the products are OpenAI dots and Claude Duet; ChatGPT Work and Claude Cowork stay labeled related, and a cell says unverified when that product has no sourced text of its own. ${sourced} of ${sourced + missing} plan prices are sourced and ${missing} are unverified.`;
+  return `${SITE_NAME} lists ${list.length} personal agents: ${names}. on the openai and anthropic rows the products are OpenAI dots and Claude Duet; ChatGPT Work and Claude Cowork stay labeled related, and a cell says unverified when that product has no sourced text of its own. ${sourced} of ${sourced + missing} plan prices are sourced and ${missing} are unverified.`;
 }
 
 export function checkedLine(date: string): string {

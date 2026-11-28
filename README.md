@@ -1,6 +1,6 @@
-# agent compare
+# The Personal Agent Guide
 
-public comparison of personal ai agents (assistants that act for one person). not coding agents.
+public comparison of personal agents (ai that acts for one person across email, calendar, browser, files and errands). not coding agents.
 
 ## no source, no claim
 

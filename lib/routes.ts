@@ -1,6 +1,7 @@
 import { agents, displayName, slugFor } from "./data";
 import { leadFor } from "./leads";
 import { questionsFor, type Question } from "./questions";
+import { CATEGORY, SITE_NAME } from "./site";
 import type { Agent } from "./types";
 
 export type Pair = { slug: string; a: Agent; b: Agent };
@@ -48,17 +49,15 @@ export function siteRoutes(): SiteRoute[] {
       path: "/",
       kind: "home",
       slug: "",
-      title: "agent compare",
-      description:
-        "sourced comparison of personal ai agents. every claim has a source and a checked-on date. no rankings and no paid placement.",
+      title: SITE_NAME,
+      description: `sourced comparison of ${CATEGORY}. every claim has a source and a checked-on date. no rankings and no paid placement.`,
     },
     {
       path: "/about",
       kind: "about",
       slug: "about",
-      title: "about — agent compare",
-      description:
-        "how agent compare works: every claim is sourced and dated, the dataset is refreshed weekly, and there is no paid placement.",
+      title: `about — ${SITE_NAME}`,
+      description: `how ${SITE_NAME} works: every claim is sourced and dated, the dataset is refreshed weekly, and there is no paid placement.`,
     },
   ];
   for (const agent of agents) {
@@ -67,7 +66,7 @@ export function siteRoutes(): SiteRoute[] {
       path: `/agents/${slugFor(agent)}`,
       kind: "agent",
       slug: slugFor(agent),
-      title: `${name} — agent compare`,
+      title: `${name} — ${SITE_NAME}`,
       description: `sourced facts for ${name}. every claim has a source and a checked-on date.`,
     });
   }
@@ -77,7 +76,7 @@ export function siteRoutes(): SiteRoute[] {
       path: `/vs/${pair.slug}`,
       kind: "vs",
       slug: pair.slug,
-      title: `${title} — agent compare`,
+      title: `${title} — ${SITE_NAME}`,
       description: leadFor("vs", pair.slug) ?? `${title}. sourced side by side.`,
     });
   }
@@ -86,7 +85,7 @@ export function siteRoutes(): SiteRoute[] {
       path: `/questions/${question.slug}`,
       kind: "question",
       slug: question.slug,
-      title: `${question.title} — agent compare`,
+      title: `${question.title} — ${SITE_NAME}`,
       description: leadFor("questions", question.slug) ?? question.title,
     });
   }
