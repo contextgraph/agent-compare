@@ -9,7 +9,7 @@ export function Header() {
         {SITE_NAME}
       </a>
       <nav aria-label="primary">
-        <a href="/#comparison">compare</a>
+        <a href="/#comparisons">compare</a>
         <a href="/#questions">questions</a>
         <a href="/about">about</a>
       </nav>

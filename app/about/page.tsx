@@ -2,7 +2,8 @@ import { Breadcrumbs, Checked } from "../../components/Chrome";
 import { JsonLd } from "../../components/JsonLd";
 import { Lead } from "../../components/Facts";
 import { Markdown } from "../../components/Markdown";
-import { latestCheckedOn, unverifiedMarkdown } from "../../lib/data";
+import { datasetDetail } from "../../lib/copy";
+import { agents, latestCheckedOn, unverifiedMarkdown } from "../../lib/data";
 import { breadcrumb, graph, webPage } from "../../lib/jsonld";
 import { pageMeta } from "../../lib/meta";
 import { CORRECTIONS_URL, KEEPER_NOTE } from "../../lib/site";
@@ -35,6 +36,7 @@ export default function AboutPage() {
       <Breadcrumbs items={[{ href: "/", label: "agent compare" }, { label: "about" }]} />
       <h1>about</h1>
       <Lead text={intro} />
+      <p>{datasetDetail(agents)}</p>
       <Checked />
       <p className="keeper">
         <span className="tag">keeper's note</span> {KEEPER_NOTE}
