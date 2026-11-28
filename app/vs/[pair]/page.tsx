@@ -9,6 +9,7 @@ import { leadFor } from "../../../lib/leads";
 import { pageMeta } from "../../../lib/meta";
 import { latestCheckedOn } from "../../../lib/data";
 import { pairsFor } from "../../../lib/routes";
+import { SITE_NAME } from "../../../lib/site";
 
 export function generateStaticParams() {
   return pairsFor().map((pair) => ({ pair: pair.slug }));
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ pair: str
   const { pair: slug } = await params;
   const pair = pairsFor().find((item) => item.slug === slug);
   if (!pair) return {};
-  const title = `${displayName(pair.a)} vs ${displayName(pair.b)} — agent compare`;
+  const title = `${displayName(pair.a)} vs ${displayName(pair.b)} — ${SITE_NAME}`;
   const lead = leadFor("vs", slug);
   return pageMeta(title, lead ?? title, `/vs/${slug}`);
 }
@@ -44,12 +45,12 @@ export default async function VersusPage({ params }: { params: Promise<{ pair: s
             articleBody: lead,
           }),
           breadcrumb([
-            { name: "agent compare", path: "/" },
+            { name: SITE_NAME, path: "/" },
             { name: title, path },
           ]),
         ])}
       />
-      <Breadcrumbs items={[{ href: "/", label: "agent compare" }, { label: title }]} />
+      <Breadcrumbs items={[{ href: "/", label: SITE_NAME }, { label: title }]} />
       <h1>{title}</h1>
       <Lead text={lead} />
       <Checked />

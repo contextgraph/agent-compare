@@ -2,7 +2,7 @@ import { aliasFacts, columnsFor, identitySlots } from "./columns";
 import { displayName, latestCheckedOn, slugFor, agents } from "./data";
 import { present, stringLeaves } from "./focus";
 import { indexableRoutes, questions } from "./routes";
-import { SITE_URL } from "./site";
+import { CATEGORY, SITE_NAME, SITE_URL } from "./site";
 import type { Agent, Fact } from "./types";
 
 function link(path: string, label: string): string {
@@ -11,9 +11,9 @@ function link(path: string, label: string): string {
 
 export function llmsIndex(): string {
   const lines = [
-    "# agent compare",
+    `# ${SITE_NAME}`,
     "",
-    "> sourced comparison of personal ai agents. every claim has a source and a checked-on date. no rankings. no paid placement.",
+    `> sourced comparison of ${CATEGORY}. every claim has a source and a checked-on date. no rankings. no paid placement.`,
     "",
     `last checked ${latestCheckedOn()}.`,
     "",
@@ -61,7 +61,7 @@ function agentText(agent: Agent): string[] {
 
 export function llmsFull(): string {
   const lines = [
-    "# agent compare",
+    `# ${SITE_NAME}`,
     "",
     "full sourced record. a line without a source is not a claim. unverified means the dataset has no value for that product.",
     "",

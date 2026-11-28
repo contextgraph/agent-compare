@@ -8,10 +8,11 @@ import { agents, changelog, latestCheckedOn, slugFor, displayName } from "../lib
 import { agentList, breadcrumb, graph, webPage } from "../lib/jsonld";
 import { indexableRoutes, pairsFor, questions } from "../lib/routes";
 import { pageMeta } from "../lib/meta";
+import { CATEGORY, SITE_NAME } from "../lib/site";
 
 export const metadata = pageMeta(
-  "agent compare",
-  "sourced comparison of personal ai agents. every claim has a source and a checked-on date. no rankings and no paid placement.",
+  SITE_NAME,
+  `sourced comparison of ${CATEGORY}. every claim has a source and a checked-on date. no rankings and no paid placement.`,
   "/",
 );
 
@@ -22,16 +23,16 @@ export default function HomePage() {
     <>
       <JsonLd
         data={graph([
-          webPage({ path: "/", title: "agent compare", description: intro, dateModified: date }),
-          breadcrumb([{ name: "agent compare", path: "/" }]),
+          webPage({ path: "/", title: SITE_NAME, description: intro, dateModified: date }),
+          breadcrumb([{ name: SITE_NAME, path: "/" }]),
           agentList(),
         ])}
       />
-      <h1>agent compare</h1>
+      <h1>{SITE_NAME}</h1>
       <Lead text={intro} />
       <Checked />
       <h2 id="comparison">comparison</h2>
-      <CompareTable id="diff-home" list={agents} columns={columnsFor()} caption="sourced comparison of personal ai agents" />
+      <CompareTable id="diff-home" list={agents} columns={columnsFor()} caption="sourced comparison of personal agents" />
       <h2 id="agents">agents</h2>
       <ul className="link-list">
         {agents.map((agent) => (

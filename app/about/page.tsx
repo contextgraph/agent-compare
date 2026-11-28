@@ -5,12 +5,11 @@ import { Markdown } from "../../components/Markdown";
 import { latestCheckedOn, unverifiedMarkdown } from "../../lib/data";
 import { breadcrumb, graph, webPage } from "../../lib/jsonld";
 import { pageMeta } from "../../lib/meta";
-import { CORRECTIONS_URL, KEEPER_NOTE } from "../../lib/site";
+import { CATEGORY, CORRECTIONS_URL, KEEPER_NOTE, SITE_NAME } from "../../lib/site";
 
-const intro =
-  "agent compare shows personal ai agents with a source link and a checked-on date on every claim. the dataset is refreshed weekly. there is no paid placement.";
+const intro = `${SITE_NAME} shows ${CATEGORY}. every claim is sourced and dated. the dataset is refreshed weekly. no paid placement.`;
 
-export const metadata = pageMeta("about — agent compare", intro, "/about");
+export const metadata = pageMeta(`about — ${SITE_NAME}`, intro, "/about");
 
 export default function AboutPage() {
   const date = latestCheckedOn();
@@ -27,12 +26,12 @@ export default function AboutPage() {
             articleBody: intro,
           }),
           breadcrumb([
-            { name: "agent compare", path: "/" },
+            { name: SITE_NAME, path: "/" },
             { name: "about", path: "/about" },
           ]),
         ])}
       />
-      <Breadcrumbs items={[{ href: "/", label: "agent compare" }, { label: "about" }]} />
+      <Breadcrumbs items={[{ href: "/", label: SITE_NAME }, { label: "about" }]} />
       <h1>about</h1>
       <Lead text={intro} />
       <Checked />

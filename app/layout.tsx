@@ -1,14 +1,23 @@
 import type { Metadata } from "next";
 import { Footer, Header } from "../components/Chrome";
-import { SITE_NAME, SITE_URL } from "../lib/site";
+import { CATEGORY, SITE_NAME, SITE_URL } from "../lib/site";
 import "./globals.css";
+
+const description = `sourced comparison of ${CATEGORY}. every claim has a source and a checked-on date. no rankings and no paid placement.`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: SITE_NAME, template: `%s — ${SITE_NAME}` },
-  description:
-    "sourced comparison of personal ai agents. every claim has a source and a checked-on date. no rankings and no paid placement.",
+  description,
   robots: { index: true, follow: true },
+  openGraph: {
+    title: SITE_NAME,
+    description,
+    siteName: SITE_NAME,
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: { card: "summary", title: SITE_NAME, description },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

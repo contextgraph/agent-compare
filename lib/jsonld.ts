@@ -1,6 +1,6 @@
 import { aliasFacts } from "./columns";
 import { agents, displayName, fullName, isFact, latestCheckedOn, slugFor } from "./data";
-import { SITE_NAME, SITE_URL } from "./site";
+import { CATEGORY, SITE_NAME, SITE_URL } from "./site";
 import type { Agent, Fact } from "./types";
 
 export type Json = Record<string, unknown>;
@@ -115,7 +115,7 @@ export function websiteNode(): Json {
     name: SITE_NAME,
     url: SITE_URL,
     description:
-      "sourced comparison of personal ai agents. every claim has a source and a checked-on date. no rankings. no paid placement.",
+      `sourced comparison of ${CATEGORY}. every claim has a source and a checked-on date. no rankings. no paid placement.`,
   };
 }
 
@@ -130,7 +130,7 @@ export function siteDate(): string {
 export function agentList(): Json {
   return {
     "@type": "ItemList",
-    name: "personal ai agents in this dataset",
+    name: "personal agents in this dataset",
     itemListElement: agents.map((agent, index) => ({
       "@type": "ListItem",
       position: index + 1,

@@ -7,7 +7,7 @@ import { agents, displayName, fullName, isKeeperRow, latestCheckedOn, relatedLab
 import { alternateNames, breadcrumb, graph, softwareApplication, webPage } from "../../../lib/jsonld";
 import { pageMeta } from "../../../lib/meta";
 import { pairsFor } from "../../../lib/routes";
-import { KEEPER_NOTE } from "../../../lib/site";
+import { KEEPER_NOTE, SITE_NAME } from "../../../lib/site";
 
 export function generateStaticParams() {
   return agents.map((agent) => ({ slug: slugFor(agent) }));
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const agent = agents.find((item) => slugFor(item) === slug);
   if (!agent) return {};
   const name = displayName(agent);
-  return pageMeta(`${name} — agent compare`, `sourced facts for ${name}. every claim has a source and a checked-on date.`, `/agents/${slug}`);
+  return pageMeta(`${name} — ${SITE_NAME}`, `sourced facts for ${name}. every claim has a source and a checked-on date.`, `/agents/${slug}`);
 }
 
 export default async function AgentPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -36,13 +36,13 @@ export default async function AgentPage({ params }: { params: Promise<{ slug: st
         data={graph([
           webPage({ path, title: name, description, dateModified: latestCheckedOn() }),
           breadcrumb([
-            { name: "agent compare", path: "/" },
+            { name: SITE_NAME, path: "/" },
             { name, path },
           ]),
           softwareApplication(agent),
         ])}
       />
-      <Breadcrumbs items={[{ href: "/", label: "agent compare" }, { label: name }]} />
+      <Breadcrumbs items={[{ href: "/", label: SITE_NAME }, { label: name }]} />
       <h1>{name}</h1>
       <Lead text="the fields below are the sourced record for this row. each claim has a source link and a checked-on date, and unverified means there is no value for this product." />
       {related ? (

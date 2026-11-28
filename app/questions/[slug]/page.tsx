@@ -9,6 +9,7 @@ import { breadcrumb, graph, webPage } from "../../../lib/jsonld";
 import { leadFor } from "../../../lib/leads";
 import { pageMeta } from "../../../lib/meta";
 import { questions } from "../../../lib/routes";
+import { SITE_NAME } from "../../../lib/site";
 
 export function generateStaticParams() {
   return questions().map((question) => ({ slug: question.slug }));
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const question = questions().find((item) => item.slug === slug);
   if (!question) return {};
   const lead = leadFor("questions", slug);
-  return pageMeta(`${question.title} — agent compare`, lead ?? question.title, `/questions/${slug}`);
+  return pageMeta(`${question.title} — ${SITE_NAME}`, lead ?? question.title, `/questions/${slug}`);
 }
 
 export default async function QuestionPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -43,12 +44,12 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
             articleBody: lead,
           }),
           breadcrumb([
-            { name: "agent compare", path: "/" },
+            { name: SITE_NAME, path: "/" },
             { name: question.title, path },
           ]),
         ])}
       />
-      <Breadcrumbs items={[{ href: "/", label: "agent compare" }, { label: question.title }]} />
+      <Breadcrumbs items={[{ href: "/", label: SITE_NAME }, { label: question.title }]} />
       <h1>{question.title}</h1>
       <Lead text={lead} />
       <Checked />

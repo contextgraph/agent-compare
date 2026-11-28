@@ -3,7 +3,11 @@ export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL || "https://agent-compare-three.vercel.app"
 ).replace(/\/$/, "");
 
-export const SITE_NAME = "agent compare";
+export const SITE_NAME = "The Personal Agent Guide";
+
+/** Category this site covers, used where that category is described. */
+export const CATEGORY =
+  "personal agents (ai that acts for one person across email, calendar, browser, files and errands)";
 
 /** Shown on the Grok Bot row and on /about. Not a product claim. */
 export const KEEPER_NOTE =
